@@ -1,0 +1,160 @@
+baseURL: "https://amirpourmand.ir/"
+title: Amir Pourmand
+paginate: 10
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+googleAnalytics: G-WEG841BBW9
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Amir Pourmand
+  description: "This is where I share my thoughts and Also an online Portfolio."
+  keywords: [Blog, Portfolio, AmirPourmand, AI]
+  author: Me
+  # author: ["Me", "You"] # multiple authors
+  images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: true
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "<link / abs url>"
+    favicon16x16: "<link / abs url>"
+    favicon32x32: "<link / abs url>"
+    apple_touch_icon: "<link / abs url>"
+    safari_pinned_tab: "<link / abs url>"
+
+  label:
+    text: "Home"
+    icon: /apple-touch-icon.png
+    iconHeight: 35
+
+  # profile-mode
+  profileMode:
+    enabled: false # needs to be explicitly set
+    title: ExampleSite
+    subtitle: "This is subtitle"
+    imageUrl: "<img location>"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: my image
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Amir Pourmand"
+    Content: Welcome to my blog, Here, I will share my thoughts and also host my resume. 
+
+  socialIcons:
+    - name: email
+      url: "mailto:pourmand1376@gmail.com"
+    - name: github
+      url: "https://github.com/pourmand1376"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/amir-pourmand"
+    - name: stackoverflow
+      url: "https://stackoverflow.com/users/4201765"
+    - name: twitter
+      url: "https://twitter.com/_amirpourmand"
+    - name: kaggle
+      url: "https://kaggle.com/amirpourmand"
+
+  analytics:
+    google:
+      SiteVerificationTag: "l6RhusmfgSX-TJDRlJA7d5bn6MknReY9_IE3ds5OyGY"
+    bing:
+      SiteVerificationTag: "XYZabc"
+    yandex:
+      SiteVerificationTag: "XYZabc"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  editPost:
+    URL: "https://github.com/<path_to_repo>/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+menu:
+  main:
+    # - identifier: categories
+    #   name: Categories
+    #   url: /categories/
+      # weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifiers: News
+      name: News
+      url: /news/
+      weight: 25
+    - identifier: bio
+      name: Bio
+      url: /bio/
+      weight: 30
+    - identifier: cv
+      name: Curriculum Vitae
+      url: /cv/
+      weight: 40
+    - identifier: code
+      name: Code
+      url: /code/
+      weight: 50
+    - identifier: publications
+      name: Publications
+      url: /publications/
+      weight: 60
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
