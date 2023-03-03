@@ -39,7 +39,7 @@ params:
   comments: true
   hidemeta: false
   hideSummary: false
-  showtoc: false
+  showtoc: true
   tocopen: false
 
   assets:
@@ -77,6 +77,8 @@ params:
     Content: Welcome to my blog, Here, I will share my thoughts and also host my resume. 
 
   socialIcons:
+    - name: Farsi Site
+      url: "https://aprd.ir"
     - name: email
       url: "mailto:pourmand1376@gmail.com"
     - name: github
@@ -89,6 +91,8 @@ params:
       url: "https://twitter.com/_amirpourmand"
     - name: kaggle
       url: "https://kaggle.com/amirpourmand"
+    - name: rss
+      url: "https://amirpourmand.ir/index.xml"
 
   analytics:
     google:
@@ -144,13 +148,14 @@ menu:
       name: Code
       url: /code/
       weight: 50
-    - identifier: publications
-      name: Publications
-      url: /publications/
-      weight: 60
+
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
+  goldmark:
+    renderer:
+      unsafe: true
+      
   highlight:
     noClasses: false
     # anchorLineNos: true
@@ -158,3 +163,10 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: monokai
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
+

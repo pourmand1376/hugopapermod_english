@@ -1,0 +1,175 @@
+{
+  "main": {
+    "id": "d027c8d44ffd7adb",
+    "type": "split",
+    "children": [
+      {
+        "id": "b351a1eb0c1605ff",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "458c55bd66560158",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/posts/2022/Make-Windows-Faster/index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c21f521dd36c8061",
+    "type": "split",
+    "children": [
+      {
+        "id": "22c26faaea163db5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "88693bbeae7aa76e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ef840777b00fde70",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "beef94e75d62a07a",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3cce80100bad4aaf",
+    "type": "split",
+    "children": [
+      {
+        "id": "6cb817f54849ae19",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7487c8e6259932b4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "content/posts/2022/Make-Windows-Faster/index.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8f63c111645a4146",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "content/posts/2022/Make-Windows-Faster/index.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "36dff901ec51a9e5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "79191f0ed8d7ac7d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "content/posts/2022/Make-Windows-Faster/index.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "88693bbeae7aa76e",
+  "lastOpenFiles": [
+    "content/posts/2023/Youtube-Channels-About-AI.md",
+    "content/posts/2023/a.md",
+    "content/posts/2023/How-To-Sync-Obsidian.md",
+    "content/posts/2023",
+    "content/posts/2022/al-folio-Jekyll-website/index.md",
+    "content/posts/2022/Make-Windows-Faster/task-scheduler.png",
+    "content/posts/2022/Make-Windows-Faster/system-properties.png",
+    "content/posts/2022/Make-Windows-Faster/startup-apps.png",
+    "content/posts/2022/Make-Windows-Faster/run-startup.png",
+    "content/posts/2022/Make-Windows-Faster/process-count.png",
+    "content/posts/2022/Make-Windows-Faster/performance-option.png",
+    "content/posts/2022/Make-Windows-Faster/index.md",
+    "content/posts/2022/Make-Windows-Faster",
+    "content/posts/2022/make/task-scheduler.png",
+    "content/posts/2022/make/system-properties.png",
+    "content/posts/2022/make/startup-apps.png",
+    "content/posts/2022/make/run-startup.png",
+    "content/posts/2022/make/index.md",
+    "content/posts/2022/make",
+    "content/posts/2022/guide-to-use-remote-linux-server/index.md",
+    "content/posts/2022/al-folio-Jekyll-website",
+    "content/posts/2022/jekyll/index.md",
+    "content/posts/2022/jekyll"
+  ]
+}
