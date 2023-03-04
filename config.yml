@@ -21,7 +21,7 @@ params:
   keywords: [Blog, Portfolio, AmirPourmand, AI]
   author: Me
   # author: ["Me", "You"] # multiple authors
-  images: ["/opengraph/opengraph.png"]
+  images: ["opengraph/opengraph.png"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
