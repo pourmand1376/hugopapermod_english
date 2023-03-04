@@ -15,7 +15,7 @@ I've studied computer engineering at [Yazd University](https://yazd.ac.ir/en). I
 
 Then, I got tired of coding as a software developer and I felt that It was somehow boring. So, I decided to pursue my master's degree to see what's going on in the world of AI. 
 
-So, I studided! 
+So, I studied! 
 
 In Aug 2020, I was ranked **1st** among over 16,000 graduate applicants in the Iranian National University Entrance Exam for M.Sc. of Computer Engineering **in 7 (all CE) majors** (this rank is unprecedented in the history of CE University entrance exam) [(My Experiences)](https://aprd.ir/computer-engineering-masters-exam/). Afterward, In February 2021, I got **Silver Medal** in the 25th Scientific Olympiads for Iranian University Students [(My experiences)](https://aprd.ir/olympiad-computer-engineering/).
 
