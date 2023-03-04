@@ -40,3 +40,10 @@ ShowToc: false
 - [Compiler and Parser](https://github.com/pourmand1376/Parser) (December 2019) - Supervisor: Dr. ZarePour
 - [Web Crawler, Indexer and Search Engine Web Application](https://github.com/pourmand1376/Crawler) (November 2018) - Supervisor: Dr. A. Zareh
 
+### Honors and Awards
+- Ranked **1st** among over 16,000 graduate applicants in the Iranian National University Entrance Exam (Konkur) for M.Sc. of Computer Engineering **in 7 (all CE) majors**, August 2020 (This rank is unprecedented in history of CE University entrance exam). 
+- **Silver Medal** in the 25th Scientific Olympiads for Iranian University Students in February 2021. 
+- Awarded a grant by National Elite Foundation for two semesters (1 year), October 2021.
+- Ranked 1st in the 24th Scientific Olympiads for Iranian University Students in Region 6 and Ranked 16th in the country in 2019. 
+- Offered admission to M.Sc. program in Artificial Intelligence at Yazd University as a talented undergraduate student, August 2020.
+- Ranked among the top 1 percent in the Iranian National University Entrance Exam (1896th among over 300,000 participants), June 2016. 
