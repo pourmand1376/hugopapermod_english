@@ -145,7 +145,7 @@ menu:
       url: /bio/
       weight: 30
     - identifier: cv
-      name: Curriculum Vitae
+      name: CV
       url: /cv/
       weight: 40
     - identifier: code
