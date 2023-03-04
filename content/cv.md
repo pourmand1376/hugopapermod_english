@@ -7,7 +7,8 @@ comments: false
 ShowToc: false
 ---
 
-#### [Resume in PDF](/assets/pdf/cv.pdf)
+#### [Academic CV](https://pourmand1376.github.io/MyResume/academic/CirrculumVitae.pdf)
+#### [Resume](https://pourmand1376.github.io/MyResume/industry/resume.pdf)
 ---
 
 ### Education
