@@ -74,7 +74,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Amir Pourmand"
-    Content: Welcome to my blog, Here, I will share my thoughts and also host my resume. 
+    Content: Welcome to my blog, Here, I will share my thoughts ... 
 
   socialIcons:
     - name: Farsi Site
