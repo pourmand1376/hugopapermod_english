@@ -108,7 +108,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/pourmand1376/hugopapermod_english"
+    URL: "https://github.com/pourmand1376/hugopapermod_english/tree/master/content/"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
