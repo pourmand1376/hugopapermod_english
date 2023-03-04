@@ -16,8 +16,8 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Amir Pourmand
-  description: "This is where I share my thoughts and Also an online Portfolio."
+  title: Amir Pourmand Personal Blog
+  description: "Here, I will share my thoughts"
   keywords: [Blog, Portfolio, AmirPourmand, AI]
   author: Me
   # author: ["Me", "You"] # multiple authors
