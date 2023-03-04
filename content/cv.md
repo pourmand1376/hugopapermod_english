@@ -5,6 +5,7 @@ draft: false
 description: Curriculum Vitae
 comments: false
 ShowToc: false
+ShowFullTextinRSS: false
 ---
 
 #### [Academic CV](https://pourmand1376.github.io/MyResume/academic/CirrculumVitae.pdf)

@@ -5,6 +5,7 @@ draft: false
 description: Short biography of me
 comments: false
 toc: false
+ShowFullTextinRSS: false
 ---
 
 <img src="prof_pic.jpg#center" alt="Profile Image" width='300'>
