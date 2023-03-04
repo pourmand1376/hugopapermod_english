@@ -1,11 +1,9 @@
 ---
 title: "Code"
-date: 2023-03-04T00:36:03+03:30
 draft: false
 description: 
 comments: false
 ShowToc: false
-ShowFullTextinRSS: false
 ---
 
 ### Open source contributions

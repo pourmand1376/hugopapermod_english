@@ -1,11 +1,9 @@
 ---
 title: "Curriculum Vitae"
-date: 2023-03-04T00:36:03+03:30
 draft: false
 description: Curriculum Vitae
 comments: false
 ShowToc: false
-ShowFullTextinRSS: false
 ---
 
 #### [Academic CV](https://pourmand1376.github.io/MyResume/academic/CirrculumVitae.pdf)

@@ -1,11 +1,9 @@
 ---
 title: "Biography"
-date: 2023-03-04T00:36:03+03:30
 draft: false
 description: Short biography of me
 comments: false
 toc: false
-ShowFullTextinRSS: false
 ---
 
 <img src="prof_pic.jpg#center" alt="Profile Image" width='300'>

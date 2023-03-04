@@ -5,5 +5,4 @@ url: "/archives/"
 summary: archives
 comments: false
 toc: false
-ShowFullTextinRSS: false
 ---
