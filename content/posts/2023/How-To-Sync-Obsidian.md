@@ -63,6 +63,16 @@ Next, you'll add the `.gitattributes` file and tell git how to handle merging fo
 ```
 What this does is it instructs git to merge markdown files as if they were plain text. This way, the only time you'll get conflicts is when you change the same line in both files, which is pretty unlikely.
 
+In case you have previously committed `workspace.json` and other mentioned gitignore files into repository, you should remove them using the following commands (If you are not sure, it wouldn't hurt to run these commands):
+
+```bash
+git rm --cached .obsidian/workspace
+git rm --cached .obsidian/workspace.json
+git rm --cached .obsidian/workspace-mobile.json
+git rm --cached .obsidian/app.json
+git commit -am "Remove gitignore files"
+```
+
 ## Sync Android
 For this part, I used [this tutorial](https://gist.github.com/Makeshift/43c7ecb3f1c28a623ea4386552712114) for the most part: 
 To Use Git on Android:
