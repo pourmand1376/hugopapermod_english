@@ -134,4 +134,6 @@ The `alias ob="sync_obsidian"` creates an alias `ob` for the function `sync_obsi
 
 > It's important not to use `git pull` in `sync_obsidian` function since it will prompt you for a merge commit message every time there are conflicts, which can be very annoying. [Why is git prompting me for a post-pull merge commit message? - Stack Overflow](https://stackoverflow.com/questions/11744081/why-is-git-prompting-me-for-a-post-pull-merge-commit-message)
 
+Here is also a short video to see how this works inside Termux. 
 
+{{<youtube AXf4pzULMIU>}}
