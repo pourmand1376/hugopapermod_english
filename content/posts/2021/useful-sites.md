@@ -25,6 +25,10 @@ I have always wanted a tool to find related papers to the ones I am already read
 
 This one find important events as the name suggests. This is a must know for researcher who want to submit their papers and attend on conferences and workshops and etc. 
 
+[Paper Digest](https://www.paper-digest.com/)
+
+This site digests papers for you and writes a good summary for them. 
+
 [MathPix](https://mathpix.com/)
 
 This powerful program converts math formulas in Image or PDF to Latex.
