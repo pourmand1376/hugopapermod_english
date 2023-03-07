@@ -63,7 +63,7 @@ Next, you'll add the `.gitattributes` file and tell git how to handle merging fo
 ```
 What this does is it instructs git to merge markdown files as if they were plain text. This way, the only time you'll get conflicts is when you change the same line in both files, which is pretty unlikely.
 
-In case you have previously committed `workspace.json` and other mentioned gitignore files into repository, you should remove them using the following commands (If you are not sure, it wouldn't hurt to run these commands):
+In case you have previously committed `workspace.json` and other mentioned gitignore files into git, you should remove them using the following commands (If you are not sure, it wouldn't hurt to run these commands):
 
 ```bash
 git rm --cached .obsidian/workspace
