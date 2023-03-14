@@ -36,7 +36,9 @@ shell:common startup
 ![](run-startup.png#center)
 
 ## 3. Registry
-To open the Registry Editor, type `regedit` in the Run dialogue box and navigate to the following directories. Note that you can paste the path directly into the Registry Editor to go directly to the desired location.
+To open the Registry Editor, type `regedit` in the Run dialogue box and navigate to the following directories. 
+
+Note that you can paste the path directly into the Registry Editor to go directly to the desired location.
 ```
 Computer\HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
 ```
@@ -44,6 +46,8 @@ Computer\HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
 ```
 Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
 ```
+
+From there, you can delete the entries that you think are useless. 
 
 ## 4. Task Scheduler
 To access the Task Scheduler and disable unnecessary items, follow these steps:
