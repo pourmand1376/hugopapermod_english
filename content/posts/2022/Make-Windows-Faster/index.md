@@ -103,7 +103,11 @@ sysdm.cpl ,3
 
 ![](performance-option.png#center)
 
+## 8- Other Minor Tweaks
+- Select Performance Mode in `Power and Sleep Plans`
+- Turn off Game Mode
 
 ## Resources 
 - [Making Windows Faster without Tools](https://www.youtube.com/watch?v=GOz_foQcPcY)
 - [Before you continue to YouTube](https://www.youtube.com/channel/UCg6gPGh8HU2U01vaFCAsvmQ)
+- [How to Speed up Windows 10 in 2022 [Effective Methods] | Beebom](https://beebom.com/speed-up-windows-10-2/)
