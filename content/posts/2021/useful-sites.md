@@ -38,7 +38,7 @@ This powerful program converts math formulas in Image or PDF to Latex.
 
 A fast way to write and share mathematics, especially when you don't have access to LATEX. Also, whenever I need to write some formulas, I first come here and write them, then export them into LATEX. It is a lot easier.
 
-[Mermail Live Editor](https://mermaid-js.github.io/mermaid-live-editor/)
+[Mermaid Live Editor](https://mermaid-js.github.io/mermaid-live-editor/) - [Mermaid Live](https://mermaid.live/)
 
 The best tool (language) for drawing a diagram is Mermaid. You don't have to use a mouse anymore. Just describe what you want, and it will render a beautiful diagram. This is also supported in GitHub markdown.
 
