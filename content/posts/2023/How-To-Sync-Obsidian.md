@@ -90,13 +90,14 @@ These commands will update your Termux installation, install the necessary packa
 git config --global credential.helper store
 git config --global user.email "<your_email>"
 git config --global user.name "<The name you want on your commits>"
+git config pull.rebase false
 ```
 Replace `<your_email>` and `<The name you want on your commits>` with your own information.
 
 - Now you're ready to clone a repository. Use the following command:
 ```
 # go to the path in your shared folder
-cd cd /storage/emulated/0/shared/
+cd /storage/emulated/0/shared/
 mkdir obsidian
 git clone <your repository_github_url>
 git config --global --add safe.directory <repo-path>
@@ -128,7 +129,6 @@ git push
 alias ob="sync_obsidian"
 alias o="sync_obsidian && exit"
 ```
-Make sure to replace `/storage/emulated/0/shared/obsidian-notes` with the location of your obsidian-notes folder.
 
 The `alias ob="sync_obsidian"` creates an alias `ob` for the function `sync_obsidian`, so that you can call the function by just typing `ob` in the terminal. The `alias o="sync_obsidian && exit"` creates an alias `o` for the function `sync_obsidian` and also exits the terminal after syncing. 
 
