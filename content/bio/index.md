@@ -20,5 +20,7 @@ In Aug 2020, I was ranked **1st** among over 16,000 graduate applicants in the I
 
 I prefer to use GNU-Linux OSes like Manjaro (Arch Linux)  or Kubuntu (KDE + Ubuntu) for my daily usage. I love [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software), and this is the main reason I migrated from Windows to GNU-Linux. I'd love to call myself a `computer geek`.
 
-I've also taken some personality tests and they have mostly categorized me into `Architect`([INTJ](https://www.16personalities.com/intj-personality)) or Logician ([INTP](https://www.16personalities.com/intp-personality)). I agree with both of them to some extent, however It seems to me that I am more `Architect`.  
+I've also taken some MBTI tests and they have mostly categorized me into `Architect`([INTJ](https://www.16personalities.com/intj-personality)) or Logician ([INTP](https://www.16personalities.com/intp-personality)). I agree with both of them to some extent, and It seems to me that I am more `Architect`.  
+
+However, I think Big-five personality test better describes me. [Here](https://bigfive-test.com/result/62fd4cb93c6f4e0009c810e1) is the result of my big-five test. 
 
