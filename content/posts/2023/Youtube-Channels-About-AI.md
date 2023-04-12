@@ -59,6 +59,7 @@ I think one of his great playlists is the one that he explains about MLOps. It i
 
 Here, I list all other people which I haven't really watched lots of video from. All of them make videos in AI field. They are not better or worst than above people, It is just that I really got to know them well.
 
+- [Andrej Karpathy - YouTube](https://www.youtube.com/@AndrejKarpathy/videos)
 - [Aladdin Persson - YouTube](https://www.youtube.com/c/AladdinPersson)
 - [Cassie Kozyrkov - YouTube](https://www.youtube.com/@datascientific/videos)
 - [CodeEmporium - YouTube](https://www.youtube.com/c/CodeEmporium)
