@@ -91,6 +91,8 @@ params:
       url: "https://twitter.com/_amirpourmand"
     - name: kaggle
       url: "https://kaggle.com/amirpourmand"
+    - name: huggingface
+      url: "https://huggingface.co/pourmand1376/"
     - name: rss
       url: "https://amirpourmand.ir/index.xml"
 
