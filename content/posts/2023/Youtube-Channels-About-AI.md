@@ -55,11 +55,11 @@ I think one of his great playlists is the one that he explains about MLOps. It i
 
 [#1 Machine Learning Engineering for Production (MLOps) Specialization [Course 1, Week 1, Lesson 1] - YouTube](https://www.youtube.com/watch?v=NgWujOrCZFo&list=PLkDaE6sCZn6GMoA0wbpJLi3t34Gd8l0aK)
 
-## Other People I do not know very well
+## Other People
 
-Here, I list all other people which I haven't really watched lots of video from. All of them make videos in AI field. They are not better or worst than above people, It is just that I really got to know them well.
+Here, I list all other people which I haven't really watched lots of video from. All of them make videos in AI field. They are not better or worst than above people, It is just that I haven't really got to know them well (or they do not create regular content on Youtube).
 
-- [Andrej Karpathy - YouTube](https://www.youtube.com/@AndrejKarpathy/videos): [This](https://www.youtube.com/watch?v=VMj-3S1tku0) video from him is very good. It is a must for everyone who wants to understand what's going on under the hood for neural networks. It implements a simple library called [micrograd](https://github.com/karpathy/micrograd) which can roughly do what pytorch does in a very simple way.
+- [Andrej Karpathy - YouTube](https://www.youtube.com/@AndrejKarpathy/videos): [This](https://www.youtube.com/watch?v=VMj-3S1tku0) video is very good. It is a must for everyone who wants to understand what's going on under the hood for neural networks. It implements a simple library called [micrograd](https://github.com/karpathy/micrograd) which can roughly do what pytorch does in a very simple way.
 - [Aladdin Persson - YouTube](https://www.youtube.com/c/AladdinPersson)
 - [Cassie Kozyrkov - YouTube](https://www.youtube.com/@datascientific/videos)
 - [CodeEmporium - YouTube](https://www.youtube.com/c/CodeEmporium)
