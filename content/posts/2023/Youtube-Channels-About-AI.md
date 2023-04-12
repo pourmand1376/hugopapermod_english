@@ -55,11 +55,11 @@ I think one of his great playlists is the one that he explains about MLOps. It i
 
 [#1 Machine Learning Engineering for Production (MLOps) Specialization [Course 1, Week 1, Lesson 1] - YouTube](https://www.youtube.com/watch?v=NgWujOrCZFo&list=PLkDaE6sCZn6GMoA0wbpJLi3t34Gd8l0aK)
 
-## Other People I do not know well
+## Other People I do not know very well
 
 Here, I list all other people which I haven't really watched lots of video from. All of them make videos in AI field. They are not better or worst than above people, It is just that I really got to know them well.
 
-- [Andrej Karpathy - YouTube](https://www.youtube.com/@AndrejKarpathy/videos)
+- [Andrej Karpathy - YouTube](https://www.youtube.com/@AndrejKarpathy/videos): [This](https://www.youtube.com/watch?v=VMj-3S1tku0) video from him is very good. It is a must for everyone who wants to understand what's going on under the hood for neural networks. It implements a simple library called [micrograd](https://github.com/karpathy/micrograd) which can roughly do what pytorch does in a very simple way.
 - [Aladdin Persson - YouTube](https://www.youtube.com/c/AladdinPersson)
 - [Cassie Kozyrkov - YouTube](https://www.youtube.com/@datascientific/videos)
 - [CodeEmporium - YouTube](https://www.youtube.com/c/CodeEmporium)
@@ -76,3 +76,4 @@ Here, I list all other people which I haven't really watched lots of video from.
 - [Arxiv Insights - YouTube](https://www.youtube.com/c/ArxivInsights/featured)
 - [Nicholas Renotte - YouTube](https://www.youtube.com/channel/UCHXa4OpASJEwrHrLeIzw7Yg)
 - [Hung-yi Lee - YouTube](https://www.youtube.com/c/HungyiLeeNTU/videos): Chinese
+
