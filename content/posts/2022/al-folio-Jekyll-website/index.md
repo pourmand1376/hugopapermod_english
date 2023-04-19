@@ -49,6 +49,7 @@ You can check status of `github-pages` using Environments Section of your github
 > If you have problems, make sure that both of your Github Actions are successful. Make sure branch is set to `gh-pages` and also check your website url and baseurl. These are some most common problems people have in `Jekyll` websites. 
 
 To summerize the blog, two steps occur when publishing the website:
+
 - First, `Deploy` Action deploys your `master` branch to `gh-pages`. It generates raw html and css. No jekyll here. 
 - Second, Page Build and Deployment Action makes your `gh-pages` branch ready for publish. But It doesn't really publish it until `gh-pages bot` decides so! 
 
