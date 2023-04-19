@@ -6,12 +6,12 @@ comments: true
 tags: [website,jekyll, al-folio, github-pages]
 ---
 
-Here I want to guide you toward setting a Jekyll website with al-folio template. This is the template I am using for my website and I love it. I have also made some contributions to make it more usable. 
+Here I want to guide you toward setting a Jekyll website with `al-folio` template. This is the template I am using for my website and I love it. I have also made some contributions to make it more usable.  
 
 > You do not need to install Jekyll, Docker, Ruby or even clone the repo in order to build and publish a website. You can do it all online and not even bother installing any of them. 
 
-## Install Al-folio on GitHub Pages
-### Step 1
+
+## Step 1
 For this tutorial, I use my a GitHub organization called `al-folio`. You should replace all with yours!
 
 First, you have to clone this repository as `al-folio.github.io` (if you have already clone, just rename it to what I've said). Make sure to check `only master branch` when forking as you do not need other branches. 
