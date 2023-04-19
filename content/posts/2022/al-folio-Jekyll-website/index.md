@@ -6,7 +6,7 @@ comments: true
 tags: [website,jekyll, al-folio, github-pages]
 ---
 
-Here I want to guide you toward setting a Jekyll website with `al-folio` template. This is the template I am using for my website and I love it. I have also made some contributions to make it more usable.  
+Here I want to guide you toward setting a Jekyll website with `al-folio` template. This is the template I am using for my website and I love it. I have also made some contributions to make it more usable (specially on docker side).  
 
 > You do not need to install Jekyll, Docker, Ruby or even clone the repo in order to build and publish a website. You can do it all online and not even bother installing any of them. 
 
@@ -63,3 +63,4 @@ To summerize the blog, two steps occur when publishing the website:
 if you want to make more changes, stay with me. 
 
 This is to be continued ... 
+
