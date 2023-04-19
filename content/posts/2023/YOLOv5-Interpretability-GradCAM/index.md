@@ -1,5 +1,5 @@
 ---
-title: How to Make YOLOv5 Interpretable using GradCAM Library
+title: How to Make YOLOv5 Interpretable using GradCAM
 date: 2023-04-19T00:00:00.000+00:00
 description: How I have made YOLOv5 Interpretable?
 tags: [YOLOv5, GradCAM, interpretability, post-hoc interpretability]
