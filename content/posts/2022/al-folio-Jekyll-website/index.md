@@ -26,7 +26,7 @@ url: https://pourmand1376.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
 ```
 
-Wait for some time until Github Actions finish. You can go to `Actions` tab and see its progress. Here, we only need `Deploy` Action to pass. Other actions are not important. 
+Wait for some time until Github Actions finish. You can go to `Actions` tab and see its progress. Here, we only need `Deploy` Action to pass. Other actions are not important for now. 
 
 Wait some time as it may last up to 5 minutes. 
 
