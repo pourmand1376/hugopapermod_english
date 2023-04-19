@@ -12,17 +12,17 @@ Here I want to guide you toward setting a Jekyll website with al-folio template.
 
 ## Install Al-folio on GitHub Pages
 
-For this tutorial, I use my real GitHub username `pourmand1376`. You should replace all with yours!
+For this tutorial, I use my a GitHub organization called `al-folio`. You should replace all with yours!
 
-First, you have to clone this repository as `pourmand1376.github.io` (if not you can change its name later). Make sure to check `only master branch` when forking as you do not need other branches. 
+First, you have to clone this repository as `al-folio.github.io` (if you have already clone, just rename it to what I've said). Make sure to check `only master branch` when forking as you do not need other branches. 
 
 Then Go to Actions Tab and Enable `GitHub Actions`.
 
 ![](enable_actions.png#center)
-Then you need to change `url` into `pourmand1376.github.io` and change `baseurl` into nothing! Just like this:
+Then you need to change `url` into `al-folio.github.io` and change `baseurl` into nothing! Just like this:
 
 ```yaml
-url: https://pourmand1376.github.io # the base hostname & protocol for your site
+url: https://al-folio.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
 ```
 
