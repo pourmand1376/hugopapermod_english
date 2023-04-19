@@ -3,7 +3,7 @@ title: A Guide to setup your own jekyll website (al-folio Theme)
 date: 2022-11-08T00:25:00.000+00:00
 description: How to build your own website and host it online for free
 comments: true
-tags: [website,jekyll, al-folio, github-page]
+tags: [website,jekyll, al-folio, github-pages]
 ---
 
 Here I want to guide you toward setting a Jekyll website with al-folio template. This is the template I am using for my website and I love it. I have also made some contributions to make it more usable. 
