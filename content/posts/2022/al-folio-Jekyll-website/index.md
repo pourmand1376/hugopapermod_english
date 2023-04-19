@@ -40,11 +40,14 @@ Choose `gh-pages` branch and root directory just like me.
 
 Now, Github actions will try to build `Page Build and Deployment Action`. If it is successful your website should be up and running in 10 minutes. 
 
-This is because once after all actions, there is a bot called `github-pages`. It should grab the generated website and publish it and sometimes you have to wait for sometime for your changes to take effect.
+After performing all the required actions, the `github-pages` bot comes into play. Its primary function is to fetch the newly generated website and publish it to the web. However, in some cases, there might be a delay before your changes become visible to others.
 
 You can check status of `github-pages` using Environments Section of your github repository. For example, here it says that `9ebc1c9` commit was deployed successfully to github pages. You can check this commit to the latest commit in `gh-pages` branch. 
 ![](ghpages-action.png)
 ![](deployment_status.png)
+You can also see from `gh-pages` branch that `9ebc1c9` is the last commit. It says that this was generated from `5d3f650` commit from master branch. This can become handy if you have problems and you do not know where is the source of that problem. 
+![](ghpages-branch-information.png)
+
 
 > If you have problems, make sure that both of your Github Actions are successful. Make sure branch is set to `gh-pages` and also check your website url and baseurl. These are some most common problems people have in `Jekyll` websites. 
 
