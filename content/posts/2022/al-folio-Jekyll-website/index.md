@@ -42,10 +42,15 @@ Now, Github actions will try to build `Page Build and Deployment Action`. If it 
 
 This is because once after all actions, there is a bot called `github-pages`. It should grab the generated website and publish it and sometimes you have to wait for sometime for your changes to take effect.
 
-You can check status of `github-pages` using Environments Section of your github repository. 
+You can check status of `github-pages` using Environments Section of your github repository. For example, here it says that `9ebc1c9` commit was deployed successfully to github pages. You can check this commit to the latest commit in `gh-pages` branch. 
 ![](ghpages-action.png)
+![](deployment_status.png)
 
 > If you have problems, make sure that both of your Github Actions are successful. Make sure branch is set to `gh-pages` and also check your website url and baseurl. These are some most common problems people have in `Jekyll` websites. 
+
+To summerize the blog, two steps occur when publishing the website:
+- First, `Deploy` Action deploys your `master` branch to `gh-pages`. It generates raw html and css. No jekyll here. 
+- Second, Page Build and Deployment Action makes your `gh-pages` branch ready for publish. But It doesn't really publish it until `gh-pages bot` decides so! 
 
 if you want to make more changes, stay with me. 
 
