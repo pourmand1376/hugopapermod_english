@@ -275,7 +275,6 @@ if len(output.shape)==2:
 assert len(output.shape) == 3
 ```
 
-
 ### More Explanation On Score
 In order to determine which pixels have the most impact on the prediction for our boxes, we calculate a score by back-propagating information from the model. This score is essentially a form of loss, but it is useful for interpretability purposes.
 
