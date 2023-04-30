@@ -106,7 +106,9 @@ For Authentication, you have two ways. Use [Personal Access Tokens](https://docs
 
 You should now have the repository folder on your device and you should be able to open your obsidian files inside its app.
 
-But This is not the end. We want to be able to sync obsidian. Right?
+> Here, You should go to Settings -> Community Plugins -> Obsidian Git and make sure `Disable on this device` is checked (unfortunately this plugin doesn't work well on mobile).
+
+But how do we sync obsidian? Bare with me. 
 
 The first step is to add a `.profile` file to your Termux home directory. To do this, run the following commands:
 ```
