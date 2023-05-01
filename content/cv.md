@@ -15,14 +15,14 @@ ShowToc: false
 * [Sharif University of Technology](https://sharif.edu)
 
     - Master of Science in Artificial Intelligence and robotics
-    - GPA: 18.7/20
+    - GPA: 18.83 / 20
     - Relevant Courses: Machine Learning, Statitical Machine Learning, Deep Learning
 
 
 * [Yazd University](https://yazd.ac.ir)
 
     - Bachelor of Science in Computer Engineering
-    - GPA: 17.47/20, Units: 140
+    - GPA: 17.47 / 20, Units: 140
 
 ---
 
