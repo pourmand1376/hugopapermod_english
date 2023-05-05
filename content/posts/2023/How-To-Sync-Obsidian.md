@@ -90,21 +90,22 @@ These commands will update your Termux installation, install the necessary packa
 git config --global credential.helper store
 git config --global user.email "<your_email>"
 git config --global user.name "<The name you want on your commits>"
-git config pull.rebase false
+git config --global pull.rebase false
+git config --global --add safe.directory '*'
 ```
 Replace `<your_email>` and `<The name you want on your commits>` with your own information.
 
 - Now you're ready to clone a repository. Use the following command:
 ```
 # go to the path in your shared folder
-cd /storage/emulated/0/shared/
+cd storage/downloads
 mkdir obsidian
 git clone <your repository_github_url>
-git config --global --add safe.directory <repo-path>
 ```
 For Authentication, you have two ways. Use [Personal Access Tokens](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token), or use [SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh). I use the second as the first one is blocked in my country. 
 
 You should now have the repository folder on your device and you should be able to open your obsidian files inside its app.
+
 
 > Here, You should go to Settings -> Community Plugins -> Obsidian Git and make sure `Disable on this device` is checked (unfortunately this plugin doesn't work well on mobile).
 
@@ -119,7 +120,7 @@ Next, you'll need to add some lines of code to your `.profile` file. These lines
 ```bash
 function sync_obsidian
 {
-cd /storage/emulated/0/shared/obsidian/<your-repo-name>
+cd /storage/downloads/obsidian/<your-repo-name>
 git add .
 git commit -m "Android Commit"
 git fetch
@@ -139,3 +140,25 @@ The `alias ob="sync_obsidian"` creates an alias `ob` for the function `sync_obsi
 Here is also a short video to see how this works inside Termux. 
 
 {{<youtube AXf4pzULMIU>}}
+
+## Creating SSH-Key for Git
+If you don't want to read github documentation, here's how to do it quickly. 
+
+First, you create an ssh-key using:
+
+```shell
+cd ~
+ssh-keygen -t ed25519 -C "your_email@example.com"
+```
+
+Press Enter if you see any messages. It will ask about where to store the file and also the password. It doesn't matter. Then Enter this command to see your public key:
+
+```bash
+cat  ~/.ssh/id_ed25519.pub
+```
+
+Copy all the output into your clipboard. Then login to your Github account and Go to `Settings -> SSH and GPG keys -> Add ssh-key`. Then add your ssh key to your account. 
+
+You can now go into your repository and copy your ssh url and then use it for cloning. 
+
+Good Luck!
