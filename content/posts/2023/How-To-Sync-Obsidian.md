@@ -114,7 +114,8 @@ But how do we sync obsidian? Bare with me.
 The first step is to add a `.profile` file to your Termux home directory. To do this, run the following commands:
 ```
 cd ~
-touch .profile
+touch ~/.profile
+echo "source ~/.profile" >> ~/.bashrc
 ```
 Next, you'll need to add some lines of code to your `.profile` file. These lines will create a function called `sync_obsidian` that will take care of syncing your notes. You should add the following code:
 ```bash
