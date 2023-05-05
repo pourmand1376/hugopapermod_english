@@ -87,12 +87,13 @@ termux-setup-storage
 These commands will update your Termux installation, install the necessary packages for Git, and set up your storage so you can access your files.
 - Next, you'll need to add your Git configurations. Run the following commands:
 ```
-git config --global credential.helper store
 git config --global user.email "<your_email>"
 git config --global user.name "<The name you want on your commits>"
+git config --global credential.helper store
 git config --global pull.rebase false
 git config --global --add safe.directory '*'
 ```
+
 Replace `<your_email>` and `<The name you want on your commits>` with your own information.
 
 - Now you're ready to clone a repository. Use the following command:
