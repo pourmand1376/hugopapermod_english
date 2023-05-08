@@ -123,7 +123,7 @@ Why there are lots of options and what do each mean?
 
 I suppose that you have seen Grad-CAM before. You know that it is fairly easy to use for lots of PyTorch models. You just backprop the class variable up to a layer and then visualize it. 
 
-However, YOLO is different. We have a non-differentiable module called [NMS](https://towardsdatascience.com/non-maximum-suppression-nms-93ce178e177c) (Non-Maximal Suppression). In fact, it filters out overlapping boxes in YOLO to make predictions more accurate. 
+However, YOLO is different. We have a non-differentiable module called [NMS](https://towardsdatascience.com/non-maximum-suppression-nms-93ce178e177c) (Non-Maximal Suppression). In fact, it is a greedy algorithm which filters out overlapping boxes in YOLO to make predictions more accurate. 
 
 So, before using NMS module, everything is differentiable. 
 
