@@ -124,6 +124,12 @@ Find the right commands you need without digging through the web.
 
 [Etymonline - Online Etymology Dictionary](https://www.etymonline.com/)
 
+## High-Quality Images
+
+- [https://pixabay.com/](https://pixabay.com/)  
+- [https://www.freepik.com/](https://www.freepik.com/)  
+- [https://unsplash.com/](https://unsplash.com/)
+
 ## ML learning 
 
 [Distill.pub](https://distill.pub/)
