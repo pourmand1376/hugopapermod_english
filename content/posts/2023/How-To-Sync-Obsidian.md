@@ -61,7 +61,7 @@ Next, you'll add the `.gitattributes` file and tell git how to handle merging fo
 ```
 *.md merge=union
 ```
-What this does is it instructs git to merge markdown files as if they were plain text. This way, the only time you'll get conflicts is when you change the same line in both files, which is pretty unlikely.
+This instructs git to merge markdown files as if they were plain text. This way, you won't ever get a git conflict in markdown files even if you change the same line at the same time (the strategy in these situtations is to show both lines). 
 
 In case you have previously committed `workspace.json` and other mentioned gitignore files into git, you should remove them using the following commands (If you are not sure, it wouldn't hurt to run these commands):
 
