@@ -19,7 +19,7 @@ params:
   title: Amir Pourmand Personal Blog
   description: "Here, I will share my thoughts"
   keywords: [Blog, Portfolio, AmirPourmand, AI]
-  author: Me
+  author: Amir
   # author: ["Me", "You"] # multiple authors
   images: ["opengraph/opengraph.png"]
   DateFormat: "January 2, 2006"
