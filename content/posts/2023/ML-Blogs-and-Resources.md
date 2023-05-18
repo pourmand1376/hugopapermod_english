@@ -1,7 +1,7 @@
 ---
 title: Machine Learning Blogs and Resources
 date: 2023-05-18T00:00:00.000+03:30
-description: Here is a list of blogs and websites which I've found and used in the AI field.
+description: Here is a curated list of blogs and websites which I've found and used in the AI field. 
 tags: ["AI", "Blogs", "Resources"]
 ---
 
@@ -58,29 +58,29 @@ It is a necessity that anyone should follow some podcasts and blogs for his/her 
 - [Code. Simply. Clearly. Calmly.](https://calmcode.io/)
 
 ### Probability
-[Probability, Statistics & Random Processes | Free Textbook | Course](https://www.probabilitycourse.com/)
-[Five Minute Stats](https://stephens999.github.io/fiveMinuteStats/index.html)
-[Welcome to STAT 415! | STAT 415](https://online.stat.psu.edu/stat415/)
-[https://web.stanford.edu/~lmackey/stats300a/](https://web.stanford.edu/~lmackey/stats300a/)
-[https://vioshyvo.github.io/Bayesian_inference/index.html](https://vioshyvo.github.io/Bayesian_inference/index.html)
-[https://stephens999.github.io/fiveMinuteStats/MH_intro.html](https://stephens999.github.io/fiveMinuteStats/MH_intro.html)
+- [Probability, Statistics & Random Processes | Free Textbook | Course](https://www.probabilitycourse.com/)
+- [Five Minute Stats](https://stephens999.github.io/fiveMinuteStats/index.html)
+- [Welcome to STAT 415! | STAT 415](https://online.stat.psu.edu/stat415/)
+- [https://web.stanford.edu/~lmackey/stats300a/](https://web.stanford.edu/~lmackey/stats300a/)
+- [https://vioshyvo.github.io/Bayesian_inference/index.html](https://vioshyvo.github.io/Bayesian_inference/index.html)
+- [https://stephens999.github.io/fiveMinuteStats/MH_intro.html](https://stephens999.github.io/fiveMinuteStats/MH_intro.html)
 
 ### Good Books
-No Bullshit Guide to Math
-No Bullshit Guide to Linear Algebra
+- No Bullshit Guide to Math
+- No Bullshit Guide to Linear Algebra
 
 ### Great ML Books 
 In my opinion, these books are the best books to get a professional in ML field. 
 
-The 100 Page Machine Learning Book
-CS229 Lecture Notes
-Learning From data: A short course
-Deep Learning, MIT 2017
-Pattern Recognition and Machine Learning
-The elements of statistical Learning
+- The 100 Page Machine Learning Book
+- CS229 Lecture Notes
+- Learning From data: A short course
+- Deep Learning, MIT 2017
+- Pattern Recognition and Machine Learning
+- The elements of statistical Learning
 
 ### Great ML Podcasts
-[Machine Learning Guide Podcast](https://ocdevel.com/mlg/resources)
+- [Machine Learning Guide Podcast](https://ocdevel.com/mlg/resources)
 
 ### Other people's lists
 - [aman.ai • exploring the art of artificial intelligence](https://aman.ai/)
