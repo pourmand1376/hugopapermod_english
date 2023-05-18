@@ -29,7 +29,15 @@ You can see a full demo at `explainer/demo.ipynb` file.
 
 I have submitted a pull-request [here](https://github.com/ultralytics/yolov5/pull/10649). You can use the my code as soon as it is merged in the base repository. But, for now, you have to add it manually. All my code is written inside `explainer/explainer.py`. 
 
-Also, you have to install Grad-Cam via:
+A better way is to clone my repository instead of YOLOv5 at [here](https://github.com/pourmand1376/yolov5/tree/add_gradcam). The reason is that latest YOLOv5 may have breaking changes to my algorithm so that it wouldn't work. However, I try to keep it completely sync with YOLOv5 repository until a reviewer confirms my code. 
+
+To clone my code:
+```
+git clone https://github.com/pourmand1376/yolov5/
+git switch add_gradcam
+```
+
+You have to install Grad-Cam via:
 ```bash
 pip install grad-cam
 ```
