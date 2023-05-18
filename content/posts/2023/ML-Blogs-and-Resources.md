@@ -1,6 +1,6 @@
 ---
 title: Machine Learning Blogs and Resources
-date: 2023-05-17T00:00:00.000+03:30
+date: 2023-05-18T00:00:00.000+03:30
 description: Here is a list of blogs and websites which I've found and used in the AI field.
 tags: ["AI", "Blogs", "Resources"]
 ---
