@@ -38,6 +38,7 @@ It is a necessity that anyone should follow some podcasts and blogs for his/her 
 - [The latest in Machine Learning | Papers With Code](https://paperswithcode.com/)
 - [fast.ai - fast.ai—Making neural nets uncool again](https://www.fast.ai/)
 - [Home - Papers](https://papers.readthedocs.io/en/latest/)
+- [The AiEdge Newsletter | Substack](https://newsletter.theaiedge.io/)
 
 ### Comprehensive ML Tutorials
 - [Harvard CS197: AI Research Experiences](https://www.cs197.seas.harvard.edu/)
@@ -96,7 +97,6 @@ In my opinion, these books are the best books to get a professional in ML field.
 - https://koaning.github.io/human-learn/index.html
 - [https://blog.ncase.me/](https://blog.ncase.me/)
 - [http://worrydream.com/](http://worrydream.com/)
-- [https://bebi103a.github.io/](https://bebi103a.github.io/)
 - [https://www.jefkine.com/](https://www.jefkine.com/)
 - [http://csrankings.org/advice.html](http://csrankings.org/advice.html)
 - [Michael Nielsen](https://michaelnielsen.org/)
