@@ -130,6 +130,9 @@ Find the right commands you need without digging through the web.
 - [https://www.freepik.com/](https://www.freepik.com/)  
 - [https://unsplash.com/](https://unsplash.com/)
 
+## Fun Sites (Learn via Game)
+- [Explorable Explanations](https://explorabl.es/)
+- 
 ## ML learning 
 
 [Distill.pub](https://distill.pub/)
