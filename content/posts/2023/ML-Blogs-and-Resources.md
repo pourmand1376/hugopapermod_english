@@ -83,6 +83,9 @@ In my opinion, these books are the best books to get a professional in ML field.
 ### Great ML Podcasts
 - [Machine Learning Guide Podcast](https://ocdevel.com/mlg/resources)
 
+### ML Newsletters
+- [Alpha Signal](https://alphasignal.ai/latest-summary)
+
 ### Other people's lists
 - [aman.ai • exploring the art of artificial intelligence](https://aman.ai/)
 - [My Curated List of AI and Machine Learning Resources from Around the Web](https://medium.com/machine-learning-in-practice/my-curated-list-of-ai-and-machine-learning-resources-from-around-the-web-9a97823b8524)
