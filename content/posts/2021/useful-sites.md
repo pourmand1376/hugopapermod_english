@@ -95,10 +95,6 @@ Seamlessly visualize your JSON data instantly into graphs!
 
 Also, for windows, you can use [Rufus](https://rufus.ie/en/). I prefer to use [Ventoy](https://www.ventoy.net/en/index.html) as it simultaneously supports multiple iso files.
 
-[Clipboard Service](https://fastbin.xyz/)
-[Online Clipboard Sharing](https://regprime.com/Clipboard)
-
-Just another clipboard service that I use
 
 [Real-time codesharing platform](https://codeshare.io/)
 
@@ -113,10 +109,6 @@ If you are familiar with Arch Linux, you know these two are the only sites you n
 [Chaotic AUR](https://pkgs.org/)
 
 A Useful site that provides compiled files to quickly install a package
-
-[SpeedTest](https://www.speedtest.net/)
-
-A good website which I use from time to time to check my internet connection. 
 
 [Git Command Explorer](https://gitexplorer.com/)
 
@@ -133,6 +125,14 @@ Find the right commands you need without digging through the web.
 ## Utilities
 - [Online Voice Recorder - Record Voice from the Microphone](https://online-voice-recorder.com/)
 
+- [SpeedTest](https://www.speedtest.net/)
+
+A good website which I use from time to time to check my internet connection. 
+
+- [Clipboard Service](https://fastbin.xyz/)
+- [Online Clipboard Sharing](https://regprime.com/Clipboard)
+
+Just another clipboard service that I use
 
 ## Fun Sites (Learn via Game)
 - [Explorable Explanations](https://explorabl.es/)
