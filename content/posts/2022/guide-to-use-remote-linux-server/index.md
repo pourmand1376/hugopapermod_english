@@ -121,7 +121,7 @@ My Cheatsheet for tmux is very simple. First, I go to tmux using ssh config (whi
 - Close tab: `Ctrl+B, X`
 - Detach from session (not close): `Ctrl+B, D`
 
-This set of commands work pretty okay in my case. Note that you don't have to remember every possible command available as some of them are accessible with right click on tab (this will be activated with `Ctrl+B, M`. 
+This set of commands work pretty okay in my case. Note that you don't have to [remember every possible command available](https://tmuxcheatsheet.com/) as some of them are accessible with right click on tab (this will be activated with `Ctrl+B, M`.  
 
 ## Bash, Zsh
 
