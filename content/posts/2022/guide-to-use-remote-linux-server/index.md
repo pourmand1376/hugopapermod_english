@@ -112,7 +112,6 @@ cp .tmux/.tmux.conf.local .
 tmux source-file ~/.tmux.conf
 ```
 
-
 ## Bash, Zsh
 
 Also, if you are using `bash`, I recommend installing [Oh-my-bash](https://github.com/ohmybash/oh-my-bash) and if you are working with `zsh`, I recommend installing [Oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh). Actually, we live in the terminal. It shouldn't look like 80's anymore. It should look pretty.
