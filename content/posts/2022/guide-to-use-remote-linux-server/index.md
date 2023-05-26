@@ -95,7 +95,7 @@ Then you can run your commands on the server, e.g.:
 
     python train.py ...
 
-This is especially good for commands that do not take long time to run. If you have a model that need to be trained for days or even longer, you can not use this. That's because the moment you close your `ssh`, all your normal processes would die. So, you will need to use a [terminal multiplexer](https://wiki.archlinux.org/title/List_of_applications#Terminal_multiplexers) like [tmux](https://github.com/tmux/tmux/wiki) or `screen` to handle this problem. Both of them are free and open source and both have easy commands to achieve your needs. You can read full pros and cons [here](https://superuser.com/questions/236158/tmux-vs-screen). I use `tmux` because the syntax is easier to use.
+This is especially good for commands that do not take long time to run. If you have a model that need to be trained for days or even longer, you can not use this. That's because the moment you close your `ssh`, all your normal processes would die. So, you will need to use a [terminal multiplexer](https://wiki.archlinux.org/title/List_of_applications#Terminal_multiplexers) like [tmux](https://github.com/tmux/tmux/wiki) or `screen` to handle this problem. Both of them are free and open source and both have easy commands to achieve your needs. You can read full pros and cons [here](https://superuser.com/questions/236158/tmux-vs-screen). I use `tmux` because it supports tabs and easily works with mouse!
 
 Here is a simple tmux session I have created. Note that the session has 6 open tabs. Each of them may do something different. 
 
@@ -111,6 +111,17 @@ ln -s -f .tmux/.tmux.conf
 cp .tmux/.tmux.conf.local .
 tmux source-file ~/.tmux.conf
 ```
+
+### Tmux CheatSheet
+My Cheatsheet for tmux is very simple. First, I go to tmux using ssh config (which I've mentioned previously) or `tmux a`. 
+
+- Activate mouse: `Ctrl+B, M`
+- Create New tab: `Ctrl+B, C`
+- Go to tab: `Ctrl+B, TabNumber`
+- Close tab: `Ctrl+B, X`
+- Detach from session (not close): `Ctrl+B, D`
+
+This set of commands work pretty okay in my case. Note that you don't have to remember every possible command available as some of them are accessible with right click on tab (this will be activated with `Ctrl+B, M`. 
 
 ## Bash, Zsh
 
