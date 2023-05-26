@@ -43,7 +43,7 @@ pip install grad-cam
 ```
 The version that I've tested is `1.4.6`. So, if you have problems you can use:
 ```bash
-pip install grad-cam=1.4.6
+pip install grad-cam==1.4.6
 ```
 
 ## Arguments
