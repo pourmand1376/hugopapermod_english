@@ -139,11 +139,13 @@ Then, you want to install python packages in your environment. But hold on. You 
 # create a new env
 conda create -n venv
 
-# create a new env with specified python version
+# create a new env with specified python version - it is better to always specify python version
 conda create -n venv python=3.8
 
 # to activate the env
 conda activate venv
+
+conda remove -n venv --all # to remove an enviroment
 ```
 
 Now for package installation, you can use both `conda install` and `pip install`. Some people say that you shouldn't use both of them because it may cause problems. I just tend to use conda for creating and activating environment. Then, installing everything else with `pip` and that works just fine.
