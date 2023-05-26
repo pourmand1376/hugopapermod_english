@@ -102,7 +102,16 @@ Here is a simple tmux session I have created. Note that the session has 6 open t
 ![](tmux.png#center)
 
 
-> If you install tmux, out of the box, it won't look like this. You have to install [Oh-my-tmux](https://github.com/gpakosz/.tmux) to make it look pretty. It is pretty easy to install. Just copy the lines and you're set. 
+> If you install tmux, out of the box, it won't look like this. You have to install [Oh-my-tmux](https://github.com/gpakosz/.tmux) to make it look pretty. It is pretty easy to install. Just copy these lines and you're set. 
+
+```bash
+cd
+git clone https://github.com/gpakosz/.tmux.git
+ln -s -f .tmux/.tmux.conf
+cp .tmux/.tmux.conf.local .
+tmux source-file ~/.tmux.conf
+```
+
 
 ## Bash, Zsh
 
