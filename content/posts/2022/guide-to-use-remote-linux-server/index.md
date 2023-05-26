@@ -113,7 +113,9 @@ tmux source-file ~/.tmux.conf
 ```
 
 ### Tmux CheatSheet
-My Cheatsheet for tmux is very simple. First, I go to tmux using ssh config (which I've mentioned previously) or `tmux a`. 
+My Cheatsheet for tmux is very simple. 
+
+First, I go to tmux using ssh config (which I've mentioned previously) or `tmux a`. 
 
 - Activate mouse: `Ctrl+B, M`
 - Create New tab: `Ctrl+B, C`
