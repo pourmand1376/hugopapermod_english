@@ -4,7 +4,8 @@ date: 2023-01-16T00:00:00.000+00:00
 description: How I use git to Sync my obsidian notes seamlessly between all operating systems?
 tags: ["obsidian","android","technology"]
 cover:
-	image: "obsidian.png"
+    image: "obsidian.png"
+    alt: "Obsidian Image"
 ---
 
 ![](obsidian.png)
@@ -13,10 +14,10 @@ cover:
 I've tried many tools and tutorials to sync my obsidian notes between android and windows. They all have the same problems:
 1. Some need subscription service (Obsidian Sync) which I'm not willing to pay
 2. Some can't handle editing the same file (Sync via GoogleDrive, Dropbox and ...)
-3. Others need complicated setup and maintanance. 
+3. Others need complicated setup and maintenance. 
 
 # My Solution
-This solution takes about 30 minutes to setup. But, once it is finished, it workes perfectly. I have tested this solution for a long time. So, there shouldn't be any problem once you set it up. 
+This solution takes about 30 minutes to setup. But, once it is finished, it works perfectly. I have tested this solution for a long time. So, there shouldn't be any problem once you set it up. 
 
 ## Initial Setup
 1. Create a Github or Gitlab Repository (Make sure it is `private`)
