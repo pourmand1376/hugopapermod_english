@@ -5,6 +5,8 @@ description: How I use git to Sync my obsidian notes seamlessly between all oper
 tags: [obsidian]
 ---
 
+![](obsidian.png)
+
 # Introduction
 I've tried many tools and tutorials to sync my obsidian notes between android and windows. They all have the same problems:
 1. Some need subscription service (Obsidian Sync) which I'm not willing to pay
