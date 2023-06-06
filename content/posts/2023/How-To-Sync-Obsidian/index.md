@@ -6,6 +6,7 @@ tags: ["obsidian","android","technology"]
 cover:
     image: "obsidian.png"
     alt: "Obsidian Image"
+    relative: true
 ---
 
 ![](obsidian.png)
