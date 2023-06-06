@@ -3,6 +3,8 @@ title: How to Sync Obsidian between Android, Windows and Mac via GIT
 date: 2023-01-16T00:00:00.000+00:00
 description: How I use git to Sync my obsidian notes seamlessly between all operating systems?
 tags: [obsidian]
+cover:
+	image: "obsidian.png"
 ---
 
 ![](obsidian.png)
