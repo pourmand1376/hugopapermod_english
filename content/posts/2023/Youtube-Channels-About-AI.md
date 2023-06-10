@@ -77,3 +77,9 @@ Here, I list all other people which I haven't really watched lots of video from.
 - [Nicholas Renotte - YouTube](https://www.youtube.com/channel/UCHXa4OpASJEwrHrLeIzw7Yg)
 - [Hung-yi Lee - YouTube](https://www.youtube.com/c/HungyiLeeNTU/videos): Chinese
 
+## A New way to look at Math
+These channels do not talk specifically about AI. Instead, they give intuitions about fundamental operations in Linear Algebra and Mathematics in general. I like them a lot. 
+
+- [3Blue1Brown - YouTube](https://www.youtube.com/c/3blue1brown)
+- [Visual Kernel - YouTube](https://www.youtube.com/@visualkernel4178)
+- [Mathemaniac - YouTube](https://www.youtube.com/@mathemaniac)
