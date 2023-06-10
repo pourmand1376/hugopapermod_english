@@ -83,3 +83,4 @@ These channels do not talk specifically about AI. Instead, they give intuitions 
 - [3Blue1Brown - YouTube](https://www.youtube.com/c/3blue1brown)
 - [Visual Kernel - YouTube](https://www.youtube.com/@visualkernel4178)
 - [Mathemaniac - YouTube](https://www.youtube.com/@mathemaniac)
+- [Steve Brunton - YouTube](https://www.youtube.com/@Eigensteve/playlists)
