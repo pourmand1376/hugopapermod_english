@@ -1,8 +1,8 @@
 ---
-title: How to Make YOLOv5 Interpretable using GradCAM
+title: Explainable YOLO: Making YOLOv5 interpretable via GradCAM
 date: 2023-04-19T00:00:00.000+00:00
 description: How I have made YOLOv5 Interpretable?
-tags: [YOLOv5, GradCAM, interpretability, post-hoc interpretability]
+tags: [YOLOv5, GradCAM, interpretability]
 ---
 
 In this explanation, I'll be discussing methods for achieving interpretability in YOLOv5, a popular object detection model. While there have been several attempts to make YOLOv5 interpretable, it's worth noting that none of these methods are currently compatible with the latest version of the model.
