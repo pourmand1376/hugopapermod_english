@@ -12,6 +12,11 @@ My work is the marriage between [PyTorch-GradCAM](https://github.com/jacobgil/py
 - [GitHub - jacobgil/pytorch-grad-cam: Advanced AI Explainability for computer vision](https://github.com/jacobgil/pytorch-grad-cam)
 - [GitHub - ultralytics/yolov5: YOLOv5 🚀 in PyTorch > ONNX > CoreML > TFLite](https://github.com/ultralytics/yolov5)
 
+## Colab Demo
+To see how to use this module, maybe the best way is to use Colab tutorial I've provided here. 
+
+- [demo.ipynb - Colaboratory](https://colab.research.google.com/github/pourmand1376/yolov5/blob/add_gradcam/explainer/demo.ipynb)
+
 ## Usage
 I want to use your work. Also, I do not care about how you did it. 
 ```python
@@ -25,7 +30,7 @@ This is the easiest way. Just mention the name of the method and say its source 
 
 ![cat-dog-default](cat-dog-default.png#center)
 
-You can see a full demo at `explainer/demo.ipynb` file. 
+> You can see a full demo at `explainer/demo.ipynb` file. If you want to work with that in colab, [here](https://colab.research.google.com/github/pourmand1376/yolov5/blob/add_gradcam/explainer/demo.ipynb) is the direct link to it. 
 
 I have submitted a pull-request [here](https://github.com/ultralytics/yolov5/pull/10649). You can use the my code as soon as it is merged in the base repository. But, for now, you can add it manually. All my code is written inside `explainer/explainer.py`. 
 
@@ -131,7 +136,9 @@ Why there are lots of options and what do each mean?
 
 I suppose that you have seen Grad-CAM before. You know that it is fairly easy to use for lots of PyTorch models. You just backprop the class variable up to a layer and then visualize it. 
 
-However, YOLO is different. We have a non-differentiable module called [NMS](https://towardsdatascience.com/non-maximum-suppression-nms-93ce178e177c) (Non-Maximal Suppression). In fact, it is a greedy algorithm which filters out overlapping boxes in YOLO to make predictions more accurate. 
+However, YOLO is different. We have a non-differentiable module called [NMS](https://towardsdatascience.com/non-maximum-suppression-nms-93ce178e177c) (Non-Maximal Suppression). It is not technically correct to say that NMS is non-differentiable. However, we can say that since NMS is a greedy algorithm, we can define many functions to use for the derivative of NMS. So, we need to see which one is the best. 
+
+In fact, it is a greedy algorithm which filters out overlapping boxes in YOLO to make predictions more accurate. 
 
 So, before using NMS module, everything is differentiable. 
 
