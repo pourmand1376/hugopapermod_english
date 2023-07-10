@@ -22,9 +22,31 @@ This solution takes about 30 minutes to setup. But, once it is finished, it work
 
 ## Initial Setup
 1. Create a Github or Gitlab Repository (Make sure it is `private`)
-2. Clone your repository to a place in your computer
-3. Open that folder as a vault in obsidian
-4. You can also move your current obsidian notes to this folder (in case you have any).
+2. Create SSH-Key and add it to your `ssh-agent`
+3. Clone your repository to a place in your device
+4. Open that folder as a vault in obsidian
+5. You can also move your current obsidian notes to this folder (in case you have any).
+
+## Creating SSH-Key for Cloning Git Repo
+If you don't want to read github documentation, here's how to do it quickly. 
+
+First, you create an ssh-key using:
+
+```shell
+cd ~
+ssh-keygen -t ed25519 -C "your_email@example.com"
+```
+
+Press Enter if you see any messages. It will ask about where to store the file and also the password. It doesn't matter. Then Enter this command to see your public key:
+
+```bash
+cat  ~/.ssh/id_ed25519.pub
+```
+
+Copy all the output into your clipboard. Then login to your Github account and Go to `Settings -> SSH and GPG keys -> Add ssh-key`. Then add your ssh key to your account. 
+
+You can now go into your repository and copy your ssh url and then use it for cloning. 
+
 
 ## Sync Windows and Mac
 For windows and mac, you can just install `obsidian-git` plugin. Installing that would be a breeze. Just make sure to set automatic pull and push (I've set it to 5 minutes). 
@@ -154,24 +176,12 @@ Here is also a short video to see how this works inside Termux.
 
 {{<youtube AXf4pzULMIU>}}
 
-## Creating SSH-Key for Git
-If you don't want to read github documentation, here's how to do it quickly. 
+## Note for iPhone Users
+I do not own an iPhone. But one of my friends does and he followed [this](https://forum.obsidian.md/t/mobile-sync-with-git-on-ios-for-free-using-ish/20861) tutorial successfully. 
 
-First, you create an ssh-key using:
+Only a few notes here:
+- Apparently, there is no need to clone the way I said in android. Clone it normally.
+- I think my script for syncing obsidian is much more robust and more importantly it makes you conflict-proof! 
 
-```shell
-cd ~
-ssh-keygen -t ed25519 -C "your_email@example.com"
-```
-
-Press Enter if you see any messages. It will ask about where to store the file and also the password. It doesn't matter. Then Enter this command to see your public key:
-
-```bash
-cat  ~/.ssh/id_ed25519.pub
-```
-
-Copy all the output into your clipboard. Then login to your Github account and Go to `Settings -> SSH and GPG keys -> Add ssh-key`. Then add your ssh key to your account. 
-
-You can now go into your repository and copy your ssh url and then use it for cloning. 
 
 Good Luck!
