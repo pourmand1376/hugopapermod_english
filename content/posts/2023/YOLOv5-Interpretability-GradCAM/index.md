@@ -292,7 +292,7 @@ To calculate the score, there are multiple ways to approach it. One common metho
 
 Maybe it would be a little more clear if you take a look at image below. 
 
-![[method1.png]]
+![method1](method1.png#center)
 
 There is also another method that Grad-CAM library proposes [here](https://jacobgil.github.io/pytorch-gradcam-book/Class%20Activation%20Maps%20for%20Object%20Detection%20With%20Faster%20RCNN.html). This is implemented for Faster-RCNN and I've taken this approach on `YOLOBoxScoreTarget2`. 
 
@@ -303,7 +303,7 @@ Here's the procedure:
 - Finally, The library would call backward on that score. 
 
 Here's the image:
-![[method_iou.png]]
+![method_iou](method_iou.png#center)
 
 Here's the code:
 ```python
