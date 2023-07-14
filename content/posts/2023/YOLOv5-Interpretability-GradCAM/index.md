@@ -245,16 +245,11 @@ for _, im, _, _, _ in dataset:
 ```
 
 ### ExtractCAM()
--   The method takes in several arguments, including the CAM explanation method to be used, the PyTorch model, the predicted bounding box coordinates, the class indices, a flag indicating whether to perform the backward pass per class or globally, the image data, the layer of the model to extract activations from, a flag indicating whether to use CUDA for GPU acceleration, a list of backpropagation targets, and any additional keyword arguments that may be required by the CAM method.
+The method takes in several arguments, Let's examine some of them:
 -   If no classes are specified, the method uses the classes present in the predicted bounding box.
--   The target layer of the model is extracted based on the specified layer index.
+-   The target layer of the model is extracted based on the specified layer index. I've found that -2 is good for most models. However, you can change it to a list of layers in order to get an average. 
 -   A list of CAM targets is created based on the predicted bounding box and backpropagation targets.
 -   If `backward_per_class` is False, the CAM is computed globally for all classes and backpropagation targets. Otherwise, the CAM is computed separately for each class and backpropagation target.
--   The CAM is computed using the specified method, model, image data, and CAM targets.
--   The resulting grayscale CAM images are added to an array.
--   The final CAM image is obtained by summing the grayscale CAM images and normalizing the values.
--   The final CAM image is overlaid on the original image using the `show_cam_on_image` function.
--   The resulting CAM image is returned.
 
 ### Score (for backward)
 This class is a custom implementation of a PyTorch target function for the CAM method. The purpose of this class is to assign a score to each bounding box in the predicted_bbox parameter based on how well the current bounding boxes match it in terms of intersection over union (IOU) and classification score (and other metrics). The total score is the sum of all the box scores.
@@ -293,7 +288,11 @@ assert len(output.shape) == 3
 ### More Explanation On Score
 In order to determine which pixels have the most impact on the prediction for our boxes, we calculate a score by back-propagating information from the model. This score is essentially a form of loss, but it is useful for interpretability purposes.
 
-To calculate the score, there are multiple ways to approach it. One common method is to sum all related class numbers. This is similar to approach taken [here](https://github.com/pooya-mohammadi/yolov5-gradcam). I have implemented this approach in `YOLOBoxScoreTarget`. 
+To calculate the score, there are multiple ways to approach it. One common method is to sum all related class numbers. This is similar to approach taken [here](https://github.com/pooya-mohammadi/yolov5-gradcam). I have implemented this approach in `YOLOBoxScoreTarget`.  
+
+Maybe it would be a little more clear if you take a look at image below. 
+
+![[method1.png]]
 
 There is also another method that Grad-CAM library proposes [here](https://jacobgil.github.io/pytorch-gradcam-book/Class%20Activation%20Maps%20for%20Object%20Detection%20With%20Faster%20RCNN.html). This is implemented for Faster-RCNN and I've taken this approach on `YOLOBoxScoreTarget2`. 
 
@@ -302,6 +301,9 @@ Here's the procedure:
 - Then I take a mean of class_scores of those 5 boxes. 
 - I add all these values to `score`. 
 - Finally, The library would call backward on that score. 
+
+Here's the image:
+![[method_iou.png]]
 
 Here's the code:
 ```python
