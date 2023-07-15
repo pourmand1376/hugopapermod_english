@@ -8,7 +8,7 @@ tags: [website]
 
 ---
 
-These are primarily bookmarks I have in my browser. I thought they could be helpful to others, so I compiled them here.
+These are primarily bookmarks I have in my browser. I thought they could be helpful to others, so I have compiled them here. 
 
 ## For Researchers
 
