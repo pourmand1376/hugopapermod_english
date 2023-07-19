@@ -55,6 +55,10 @@ It is a necessity that anyone should follow some podcasts and blogs for his/her 
 - [GitHub - jlevy/the-art-of-command-line: Master the command line, in one page](https://github.com/jlevy/the-art-of-command-line)
 - [BE/Bi 103 a: Introduction to Data Analysis in the Biological Sciences — BE/Bi 103 a documentation](https://bebi103a.github.io/)
 
+## MLOps and ML System Design
+- [Made With ML](https://madewithml.com/)
+- [CS 329S: Machine Learning Systems Design](https://stanford-cs329s.github.io/syllabus.html)
+
 ### Python Great Tutorials
 - [Code. Simply. Clearly. Calmly.](https://calmcode.io/)
 
