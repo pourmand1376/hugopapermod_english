@@ -4,3 +4,7 @@ If you want to use cloudflare, you should use a higher version of hugo [+](https
 
 > For example, HUGO_VERSION: 0.110.0.
 
+After Cloning do this to download inner repositories completely
+```
+git submodule update --init --recursive # needed when you reclone your repo (submodules may not get cloned automatically)
+```
