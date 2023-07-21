@@ -65,7 +65,7 @@ To summerize the blog, two steps occur when publishing the website:
 
 if you want to make more changes, stay with me. 
 
-## Install Locally
+## Tune the website Locally
 Now, you have your website up and running. It is configured so that whenever you commit to a specific branch, your server (Github or Netlify or whatever) will go and build a fresh website for your use. 
 
 However, it is hard to change it locally as you have to wait for some time until your website is build. I recommend that you also install your website locally to review your changes on the fly.
