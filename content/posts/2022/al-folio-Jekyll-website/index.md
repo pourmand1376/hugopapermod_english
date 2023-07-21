@@ -55,7 +55,7 @@ You can also see from `gh-pages` branch that `9ebc1c9` is the last commit. It sa
 > If you have problems, make sure that both of your Github Actions are successful. Make sure branch is set to `gh-pages` and also check your website url and baseurl. These are some most common problems people have in `Jekyll` websites. 
 
 ### Host on Netlify
-
+You can also easily host this repository on netlify. Just connect your github account to netlify. Then select jekyll and you are done. No special configuration is necessary. 
 
 ### Summarize
 To summerize the blog, two steps occur when publishing the website:
