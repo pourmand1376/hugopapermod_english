@@ -117,11 +117,12 @@ My Cheatsheet for tmux is very simple.
 
 First, I go to tmux using ssh config (which I've mentioned previously) or `tmux a`. 
 
-- Activate mouse: `Ctrl+B, M`
-- Create New tab: `Ctrl+B, C`
-- Go to tab: `Ctrl+B, TabNumber`
-- Close tab: `Ctrl+B, X`
-- Detach from session (not close): `Ctrl+B, D`
+- Activate mouse: `Ctrl+b, M`
+- Create New tab: `Ctrl+b, C`
+- Go to tab: `Ctrl+b, TabNumber`
+- Close tab: `Ctrl+b, X`
+- Detach from session (not close): `Ctrl+b, d`
+- Show All Windows and Tabs: `Ctrl + b, w` 
 
 This set of commands work pretty okay in my case. Note that you don't have to [remember every possible command available](https://tmuxcheatsheet.com/) as some of them are accessible with right click on tab (this will be activated with `Ctrl+B, M`.  
 
