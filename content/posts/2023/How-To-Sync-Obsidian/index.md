@@ -131,7 +131,7 @@ Replace `<your_email>` and `<The name you want on your commits>` with your own i
 ```
 cd ~
 mkdir obsidian
-git clone <your repository_github_url> --git-dir ~/obsidian --work-dir ~/storage/downloads/obsidian
+git --git-dir ~/obsidian --work-dir ~/storage/downloads/obsidian clone <your repository_github_url>
 ```
 
 > Note that here we are separting git working directory and bare git directory. This is a must and the reason for taking this approach is explained [here](https://github.com/termux/termux-app/issues/3385). 
