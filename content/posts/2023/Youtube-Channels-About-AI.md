@@ -16,6 +16,7 @@ Here's a list of videos from him which I liked a lot:
 
 ## [AI Coffee Break with Letitia](https://www.youtube.com/@AICoffeeBreak/videos)
 
+
 She is very good at NLP and Transformers. She explains the topics passionately, so you would never be bored.
 
 Here's a list of videos from her which I liked:
