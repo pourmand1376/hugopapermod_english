@@ -61,7 +61,15 @@ Obsidian > Options > Command Pallete > Pinned Commands
 [GitHub - denolehov/obsidian-git: Backup your Obsidian.md vault with git](https://github.com/denolehov/obsidian-git)
 Also, here is the repo if you want to check it out. 
 
-### Extra Option for windows users
+
+## Update 2023-10-08
+This blog have gotten a lot of attention. So, I decided to simplify things and write a bash scripts which does all these stuff pretty automatically. 
+
+To use it go to [this](https://github.com/pourmand1376/Obsidian-Sync) repository in github. 
+
+You can skip the whole tutorial here if you decided to go with Github version. 
+
+### ExtraOption for windows users
  Note that if you are using windows, you should also use this command to prevent path error on odd filenames ([+](https://stackoverflow.com/questions/63727594))
 ```
 git config core.protectNTFS false
