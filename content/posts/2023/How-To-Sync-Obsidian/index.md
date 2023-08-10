@@ -65,9 +65,11 @@ Also, here is the repo if you want to check it out.
 ## Update 2023-10-08
 This blog have gotten a lot of attention. So, I decided to simplify things and write a bash scripts which does all these stuff pretty automatically. 
 
-To use it go to [this](https://github.com/pourmand1376/Obsidian-Sync) repository in github. 
+I have written my script in [this repository](https://github.com/pourmand1376/Obsidian-Sync). To follow along just copy this line and go with video tutorial. 
 
-You can skip the whole tutorial here if you decided to go with Github version. 
+```bash
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/pourmand1376/obsidian-sync/main/obsidian.sh)"
+```
 
 ### ExtraOption for windows users
  Note that if you are using windows, you should also use this command to prevent path error on odd filenames ([+](https://stackoverflow.com/questions/63727594))
