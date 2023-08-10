@@ -1,12 +1,15 @@
 .main {
-    font-size: medium !important;
+  font-size: medium !important;
 }
-h1,h2,h3 {
-    font-size: x-large !important;
+h1,
+h2,
+h3 {
+  font-size: x-large !important;
 }
-h4,h5 {
-    font-size: large !important;
+h4,
+h5 {
+  font-size: large !important;
 }
 code {
-    font-size: medium !important;
+  font-size: medium !important;
 }
