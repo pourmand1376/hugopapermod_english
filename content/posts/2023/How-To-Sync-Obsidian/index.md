@@ -70,11 +70,19 @@ Also, here is the repo if you want to check it out.
 
 This blog have gotten a lot of attention. So, I decided to simplify things and write a bash scripts which does all these stuff pretty automatically.
 
-I have written my script in [this repository](https://github.com/pourmand1376/Obsidian-Sync). To follow along just copy this line and go with video tutorial.
+I have written my script in [this repository](https://github.com/pourmand1376/Obsidian-Sync). To follow along just copy this line and go with video tutorial. This way it only takes five minutes to complete the setup.
 
 ```bash
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/pourmand1376/obsidian-sync/main/obsidian.sh)"
 ```
+
+YoutubeVideo Tutorial Part 1:
+
+{{<youtube id="i-3luCFB1u0" class="embed-v" >}}
+
+Youtube Video Tutorial Part 2:
+
+{{<youtube id="oWiFPwLD8Uc" class="embed-v" >}}
 
 ### ExtraOption for windows users
 
