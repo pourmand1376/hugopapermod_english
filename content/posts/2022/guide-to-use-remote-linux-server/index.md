@@ -157,6 +157,7 @@ I can't think anyone not using this tool. It shows you all processes and their m
 
 ![](htop.png#center)
 
+You can also use [btop](https://github.com/aristocratos/btop) as an alternative. 
 ## Nvidia-htop
 
 You can see GPU information using `nvidia-smi`. But most of the time, it doesn't tell you all the information you need at once. You want to undestand who is using GPU or how much time GPU is being used and what not. You can see all you need using `nvidia-htop`. For installation, it is indeed very easy. 
