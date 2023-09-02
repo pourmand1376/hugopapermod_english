@@ -2,7 +2,7 @@ baseURL: "https://amirpourmand.ir/"
 title: Amir Pourmand
 paginate: 10
 theme: PaperMod
-
+copyright: All content on this site is licensed under a [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) license.
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
@@ -53,7 +53,7 @@ params:
 
   label:
     text: "Home"
-    icon: 
+    icon:
     iconHeight: 35
 
   # profile-mode
@@ -129,7 +129,7 @@ menu:
     # - identifier: categories
     #   name: Categories
     #   url: /categories/
-      # weight: 10
+    # weight: 10
     - identifier: archives
       name: Archives
       url: /archives/
@@ -161,7 +161,7 @@ markup:
   goldmark:
     renderer:
       unsafe: true
-      
+
   highlight:
     noClasses: false
     # anchorLineNos: true
@@ -171,8 +171,8 @@ markup:
     # style: monokai
 
 outputs:
-    home:
-        - HTML
-        - RSS
-        - JSON # is necessary
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
 
