@@ -39,3 +39,4 @@ After that, go to **Rules** -> **Page Rules** -> **Create Page Rule** and add a 
 
 ![](cache-level-CDN.png)
 
+I used this way for a long time. The only problem is that sometimes (maybe once in a year), netlify IP Addresses change and you have to remove the site and add it again. 

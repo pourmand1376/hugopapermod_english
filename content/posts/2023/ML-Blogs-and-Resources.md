@@ -96,7 +96,7 @@ In my opinion, these books are the best books to get a professional in ML field.
 ### Other people's lists
 - [aman.ai • exploring the art of artificial intelligence](https://aman.ai/)
 - [My Curated List of AI and Machine Learning Resources from Around the Web](https://medium.com/machine-learning-in-practice/my-curated-list-of-ai-and-machine-learning-resources-from-around-the-web-9a97823b8524)
-
+- [Machine Learning Guide - Resources](https://ocdevel.com/mlg/resources)
 ### Others 
 
 - [https://docs.ray.io/en/latest/tune/index.html](https://docs.ray.io/en/latest/tune/index.html)
