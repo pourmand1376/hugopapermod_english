@@ -74,7 +74,9 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Amir Pourmand"
-    Content: Welcome to my blog. Here, I will share my thoughts
+    Content: |
+      Welcome to my blog. Here, I will share my thoughts \
+      You can click [here](https://aprd.ir) to visit my Farsi Blog.
 
   socialIcons:
     - name: Farsi Site
