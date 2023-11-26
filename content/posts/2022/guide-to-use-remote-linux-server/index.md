@@ -197,3 +197,14 @@ pip install nvitop
 # then run
 nvitop
 ```
+
+## NVIDIA Docker
+If you use your GPUs inside Docker containers, you can not see which container is eating up your GPU by previous commands. 
+
+In this scenario, you should use [`NvidiaDockerStats`](https://github.com/AllenCellModeling/nvidia-docker-stats/) and it will show you something like this:
+
+![](nvidiadockerstats.png)
+
+Thanks for reading this far. 
+
+Good Luck! 
