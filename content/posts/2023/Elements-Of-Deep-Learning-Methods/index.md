@@ -5,6 +5,7 @@ tags:
   - academic
   - data_science
   - AI
+math: true
 ---
 I've been thinking for some time about this and I want to share my thoughts about it. 
 
