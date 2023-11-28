@@ -17,7 +17,9 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Amir Pourmand Personal Blog
-  description: "Here, I will share my thoughts"
+  description: |
+    I am Amir Pourmand and this is my personal blog. 
+    I write about everything that comes into my mind and things I experience like: Machine learning, Data Science, Website and etc.
   keywords: [Blog, Portfolio, AmirPourmand, AI]
   author: Amir
   # author: ["Me", "You"] # multiple authors
