@@ -66,3 +66,5 @@ In some cases, we need to do some postprocessing on the output to make it usable
 
 ## Conclusion
 I have mentioned some important parts of a deep learning method. I think that first are the most important points in each Deep learning paper and I think if I read a paper and can not explain the loss function and the achitecture, I have understood nothing from that paper. 
+
+> I found [this article](https://medium.com/@pratyush057/elements-of-machine-learning-e09ebf16af19) weeks after I wrote this blog post and I find it helpful. 
