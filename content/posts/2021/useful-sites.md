@@ -154,3 +154,5 @@ This is an intuitive explanation of Machine learning, for starters.
 Reviewing current state-of-the-art in machine learning (SOTA)
 
 [Trend articles every day](https://mavenlin.github.io/ai_research_trends/)
+
+[AI and Data Scientist Roadmap](https://roadmap.sh/ai-data-scientist)
