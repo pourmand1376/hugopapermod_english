@@ -3,8 +3,8 @@ title: Useful Linux Commands and Scripts
 date: 2023-12-05
 tags:
   - linux
-  - ssh
   - technology
+  - terminal
 ---
 I've been working for some time with Linux and I feel that sharing some scripts and also tools I frequently use can be helpful. 
 
