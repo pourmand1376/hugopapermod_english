@@ -111,5 +111,13 @@ htop
 ```
 
 or maybe just install [Neofetch](https://github.com/dylanaraps/neofetch).
-### Watch Network Usage
-Just install **iftop**. 
+### Useful Terminal Tools to install
+#### Watch Network Usage
+```
+sudo apt install iftop
+```
+#### Enable SSH Access to system
+```
+sudo apt install openssh-server
+```
+This way you can access your laptop (or server) via SSH easily. 
