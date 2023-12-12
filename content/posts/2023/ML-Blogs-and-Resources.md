@@ -33,6 +33,7 @@ It is a necessity that anyone should follow some podcasts and blogs for his/her 
 - [Matt Might's blog](https://matt.might.net/articles/)
 - [State of the Smerity](https://state.smerity.com/articles)
 - [François Chollet | Substack](https://substack.com/@fchollet)
+- [Denny’s Blog](https://dennybritz.com/)
 ### ML Sites
 - [Distill — Latest articles about machine learning](https://distill.pub/)
 - [The latest in Machine Learning | Papers With Code](https://paperswithcode.com/)
