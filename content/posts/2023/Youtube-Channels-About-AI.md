@@ -56,6 +56,10 @@ I think one of his great playlists is the one that he explains about MLOps. It i
 
 [#1 Machine Learning Engineering for Production (MLOps) Specialization [Course 1, Week 1, Lesson 1] - YouTube](https://www.youtube.com/watch?v=NgWujOrCZFo&list=PLkDaE6sCZn6GMoA0wbpJLi3t34Gd8l0aK)
 
+## [DVCorg - YouTube](https://www.youtube.com/@dvcorg8370)
+
+[MLOps Tutorial #1: Intro to Continuous Integration for ML - YouTube](https://www.youtube.com/watch?v=9BgIDqAzfuA&list=PL7WG7YrwYcnDBDuCkFbcyjnZQrdskFsBz&index=1&pp=iAQB)
+This is one of the best tutorials I've ever seen. It is very practical and shows how to implement an continuous integration system for Machine Learning with minimal effort. 
 ## Other People
 
 Here, I list all other people which I haven't really watched lots of video from. All of them make videos in AI field. They are not better or worst than above people, It is just that I haven't really got to know them well (or they do not create regular content on Youtube).
