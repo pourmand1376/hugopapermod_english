@@ -21,7 +21,7 @@ I've tried many tools and tutorials to sync my obsidian notes between android an
 
 # My Solution
 
-This solution takes some time (at most 10 minutes) to setup. But, once it is finished, it works perfectly. I have tested this solution since 2012. So, there shouldn't be any problem once you set it up.
+This solution takes some time (at most 10 minutes) to setup. But, once it is finished, it works perfectly. I have tested this solution since 2012 (roughly a year). So, there shouldn't be any problem once you set it up.
 
 ## Initial Setup
 
