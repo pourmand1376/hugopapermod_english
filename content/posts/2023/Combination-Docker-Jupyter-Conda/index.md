@@ -20,7 +20,7 @@ For all of this reasons, I have combined three very good technologies, Docker an
 
 I now have Conda and Jupyter Notebook inside a Docker container. Isn't that pretty?
 
-The code is [completely open source](https://github.com/pourmand1376/Jupyter-Docker-Conda) and available in my Github account. 
+The code is [completely open source](https://github.com/pourmand1376/Jupyter-Docker-Conda) and available in my Github account. The image is also available [here](https://hub.docker.com/r/amirpourmand/jupyter-docker-conda) in Dockerhub. 
 
 ## Usage
 To run it, just use the following command. This will download the image from DockerHub and open up a juptyer notebook inside a docker image. 
