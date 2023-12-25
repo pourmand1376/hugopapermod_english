@@ -82,6 +82,6 @@ conda create -n my_env ipykernel python=3.8 -y
 
 And you are good to go. 
 
-I hope this docker images helps you keep your base OS clean and tidy. 
+I hope this docker image helps you keep your base OS clean and tidy. 
 
 
