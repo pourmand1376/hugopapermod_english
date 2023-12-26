@@ -121,3 +121,15 @@ sudo apt install iftop
 sudo apt install openssh-server
 ```
 This way you can access your laptop (or server) via SSH easily. 
+
+#### Find Documentation for a command
+Let's say you want to read documentation for a command like `find`. You might do `man find` or `find --help` but none of them are easy to read. We can do better.
+
+```
+sudo apt install tldr
+tldr --update
+```
+
+Install `tldr` (too long didn't read) and then use `tldr find`. This way you would find a much better and easy to follow documentation. Just take a look at it. Isn't that better?
+
+![](tldr.png)
