@@ -130,6 +130,6 @@ sudo apt install tldr
 tldr --update
 ```
 
-Install `tldr` (too long didn't read) and then use `tldr find`. This way you would find a much better and easy to follow documentation. Just take a look at it. Isn't that better?
+Install `tldr` (too long didn't read) and then use `tldr find`. This way you would find a much better and easy to follow documentation. Just take a look at it. Isn't that better? ([+](https://github.com/tldr-pages/tldr) / [+](https://github.com/isacikgoz/tldr))
 
 ![](tldr.png)
