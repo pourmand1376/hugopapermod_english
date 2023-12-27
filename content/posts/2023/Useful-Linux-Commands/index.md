@@ -138,5 +138,6 @@ Or, If you don't want to install anything, you can just use [`cheat.sh`](https:/
 
 ```
 curl cht.sh/tar
+curl cheat.sh/tar
 ```
 
