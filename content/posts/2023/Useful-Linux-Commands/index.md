@@ -88,6 +88,10 @@ tcp6       0      0 :::8019                 :::*                    LISTEN      
 ```
 
 ### Get Server Information
+Logged in users:
+```
+w
+```
 IP Address:
 ```sh
 ifconfig -a | grep inet
