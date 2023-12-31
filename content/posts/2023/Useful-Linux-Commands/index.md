@@ -8,6 +8,11 @@ tags:
 ---
 I've been working for some time with Linux and I feel that sharing some scripts and also tools I frequently use can be helpful. 
 
+### Search History
+```
+history | grep seach_string
+```
+or `Ctrl+R`. 
 ### Show File and Folder Size
 To analyze file size, there are several ways. 
 
