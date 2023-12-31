@@ -149,3 +149,4 @@ curl cheat.sh/tar
 - [CLI tools you won't be able to live without 🔧 - DEV Community](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6)
 - [My Favorite CLI Tools](https://switowski.com/blog/favorite-cli-tools/)
 - [The 10 Best CLI Tools 🛠️ for Software Developer’s👨‍💻 Productivity | Scalereal](https://scalereal.com/devops/2020/05/15/10-cli-tools-for-developers-productivity.html)
+- [GitHub - k4m4/terminals-are-sexy: 💥 A curated list of Terminal frameworks, plugins & resources for CLI lovers.](https://github.com/k4m4/terminals-are-sexy)
