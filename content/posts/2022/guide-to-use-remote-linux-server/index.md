@@ -17,12 +17,18 @@ However, Windows users need to follow [this tutorial](https://ubuntu.com/tutoria
 > Note: Some people use putty to connect to their linux box. I do not like it and I do not recommend it. That's very old school. 
 
 ## SSH
-First of all, you know that you should connect to server via `SSH`: (1914 is just a dummpy number for port. Just select something that linux hasn't used)
+First of all, you know that you should connect to server via `SSH`. Simplest command would be: 
+
+```
+ssh username@serverAddress
+```
+But you might want to forward a port to your system to use jupyter (or something). For that we use: 
 
     ssh -L 1914:localhost:1914 pourmand@ServerAddress
 
-After that you will need to enter your password for the user `pourmand` in the server. 
+1914 is just a dummy number for port. Just select something that your server hasn't used (to see available ports use `netstat -nltp`).
 
+After that you will need to enter your password for the user `pourmand` in the server. 
 ### Connecting Without Password
 
 You may want the server to **know** your computer i.e. it does not ask for password every time you want to connect to it.
@@ -63,7 +69,7 @@ For that, open `~/.ssh/config` file and write the following configuration:
 HOST <<your_desired_host_name>>
 	HOSTNAME <<hostname_ip>>
 	USER <<your_username>>
-	LOCALFORWARD 1717 localhost:1717
+	LOCALFORWARD 1914 localhost:1914
 ```
 
 You can also set `tmux` to open automatically by adding the following lines ([Reference](https://stackoverflow.com/questions/27613209/how-to-automatically-start-tmux-on-ssh-session)) :
