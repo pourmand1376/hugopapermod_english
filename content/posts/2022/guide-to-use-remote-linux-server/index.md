@@ -26,7 +26,7 @@ But you might want to forward a port to your system to use jupyter (or something
 
     ssh -L 1914:localhost:1914 pourmand@ServerAddress
 
-1914 is just a dummy number for port. Just select something that your server hasn't used (to see available ports use `netstat -nltp`).
+1914 is just a dummy number for port. Just select something that your server hasn't used (to see used ports use `netstat -nltp`).
 
 After that you will need to enter your password for the user `pourmand` in the server. 
 ### Connecting Without Password
