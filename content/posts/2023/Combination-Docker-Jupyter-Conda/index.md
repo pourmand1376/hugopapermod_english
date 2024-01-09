@@ -29,7 +29,7 @@ docker run -d \
   -p 10000:8888 \
   -v "$(pwd)":/home/user/app \
   --name my_jupyter_container \
-  amirpourmand/jupyter-docker-conda
+  amirpourmand/jupyter-docker-conda:slim
 ```
 Now, go ahead to `localhost:10000` and you are good to go. 
 
@@ -57,7 +57,7 @@ docker run -d -u 0 \
   -p 10000:8888 \
   -v "$(pwd)":/home/user/app \
   --name my_jupyter_container \
-  amirpourmand/jupyter-docker-conda
+  amirpourmand/jupyter-docker-conda:slim
 ```
 
 Why I do not recommend this way? 
