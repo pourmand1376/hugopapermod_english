@@ -60,7 +60,7 @@ It is a necessity that anyone should follow some podcasts and blogs for his/her 
 ## MLOps and ML System Design
 - [Made With ML](https://madewithml.com/)
 - [CS 329S: Machine Learning Systems Design](https://stanford-cs329s.github.io/syllabus.html)
-
+- [GitHub - EthicalML/awesome-production-machine-learning: A curated list of awesome open source libraries to deploy, monitor, version and scale your machine learning](https://github.com/EthicalML/awesome-production-machine-learning)
 ### Python Great Tutorials
 - [Code. Simply. Clearly. Calmly.](https://calmcode.io/)
 
