@@ -61,6 +61,7 @@ It is a necessity that anyone should follow some podcasts and blogs for his/her 
 - [Made With ML](https://madewithml.com/)
 - [CS 329S: Machine Learning Systems Design](https://stanford-cs329s.github.io/syllabus.html)
 - [GitHub - EthicalML/awesome-production-machine-learning: A curated list of awesome open source libraries to deploy, monitor, version and scale your machine learning](https://github.com/EthicalML/awesome-production-machine-learning)
+- [GitHub - featurestoreorg/serverless-ml-course: Serverless Machine Learning Course for building AI-enabled Prediction Services from models and features](https://github.com/featurestoreorg/serverless-ml-course)
 ### Python Great Tutorials
 - [Code. Simply. Clearly. Calmly.](https://calmcode.io/)
 
