@@ -12,6 +12,7 @@ ShowToc: false
 
 {{< pdfReader "https://pourmand1376.github.io/MyResume/industry/resume.pdf" >}}
 
+Generated via [flowcv](https://flowcv.com/). 
 ### Education
 
 - [Sharif University of Technology](https://sharif.edu)
