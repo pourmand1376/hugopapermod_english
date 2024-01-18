@@ -6,27 +6,29 @@ comments: false
 ShowToc: false
 ---
 
-#### [Academic CV](https://pourmand1376.github.io/MyResume/academic/CirrculumVitae.pdf)
 #### [Resume](https://pourmand1376.github.io/MyResume/industry/resume.pdf)
+
 ---
+
+{{< pdfReader "https://pourmand1376.github.io/MyResume/industry/resume.pdf" >}}
 
 ### Education
 
-* [Sharif University of Technology](https://sharif.edu)
+- [Sharif University of Technology](https://sharif.edu)
 
-    - Master of Science in Artificial Intelligence and robotics
-    - GPA: 18.83 / 20
-    - Relevant Courses: Machine Learning, Statitical Machine Learning, Deep Learning
+  - Master of Science in Artificial Intelligence and robotics
+  - GPA: 18.83 / 20
+  - Relevant Courses: Machine Learning, Statitical Machine Learning, Deep Learning
 
+- [Yazd University](https://yazd.ac.ir)
 
-* [Yazd University](https://yazd.ac.ir)
-
-    - Bachelor of Science in Computer Engineering
-    - GPA: 17.47 / 20, Units: 140
+  - Bachelor of Science in Computer Engineering
+  - GPA: 17.47 / 20, Units: 140
 
 ---
 
 ### Courses
+
 - [Deep Learning](https://github.com/pourmand1376/DL-Homeworks) (Aug 2021 - Jan 2022) - Supervisor: Prof. Hamid Beigy
 - [Stochastic Process](https://github.com/pourmand1376/SP-Homeworks) (Aug 2021 - Jan 2022) - Supervisor: Prof. Hamid R. Rabiee
 - [Machine Learning](https://github.com/pourmand1376/ML-projects) (Jan 2021 - July 2021) - Supervisor: Dr. M. Rohban
@@ -37,13 +39,15 @@ ShowToc: false
 ---
 
 ### Course Projects
+
 - [Compiler and Parser](https://github.com/pourmand1376/Parser) (December 2019) - Supervisor: Dr. ZarePour
 - [Web Crawler, Indexer and Search Engine Web Application](https://github.com/pourmand1376/Crawler) (November 2018) - Supervisor: Dr. A. Zareh
 
 ### Honors and Awards
-- Ranked **1st** among over 16,000 graduate applicants in the Iranian National University Entrance Exam (Konkur) for M.Sc. of Computer Engineering **in 7 (all CE) majors**, August 2020 (This rank is unprecedented in history of CE University entrance exam). 
-- **Silver Medal** in the 25th Scientific Olympiads for Iranian University Students in February 2021. 
+
+- Ranked **1st** among over 16,000 graduate applicants in the Iranian National University Entrance Exam (Konkur) for M.Sc. of Computer Engineering **in 7 (all CE) majors**, August 2020 (This rank is unprecedented in history of CE University entrance exam).
+- **Silver Medal** in the 25th Scientific Olympiads for Iranian University Students in February 2021.
 - Awarded a grant by National Elite Foundation for two semesters (1 year), October 2021.
-- Ranked 1st in the 24th Scientific Olympiads for Iranian University Students in Region 6 and Ranked 16th in the country in 2019. 
+- Ranked 1st in the 24th Scientific Olympiads for Iranian University Students in Region 6 and Ranked 16th in the country in 2019.
 - Offered admission to M.Sc. program in Artificial Intelligence at Yazd University as a talented undergraduate student, August 2020.
-- Ranked among the top 1 percent in the Iranian National University Entrance Exam (1896th among over 300,000 participants), June 2016. 
+- Ranked among the top 1 percent in the Iranian National University Entrance Exam (1896th among over 300,000 participants), June 2016.
