@@ -150,6 +150,7 @@ curl cht.sh/tar
 curl cheat.sh/tar
 ```
 
+Also, see [GitHub - jlevy/the-art-of-command-line: Master the command line, in one page](https://github.com/jlevy/the-art-of-command-line). 
 ### A list of Great Tools to install
 - [CLI tools you won't be able to live without 🔧 - DEV Community](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6)
 - [My Favorite CLI Tools](https://switowski.com/blog/favorite-cli-tools/)
