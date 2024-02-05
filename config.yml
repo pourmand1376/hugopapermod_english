@@ -91,8 +91,8 @@ params:
       url: "https://www.linkedin.com/in/amir-pourmand"
     - name: stackoverflow
       url: "https://stackoverflow.com/users/4201765"
-    - name: twitter
-      url: "https://twitter.com/_amirpourmand"
+    # - name: twitter
+    #   url: "https://twitter.com/_amirpourmand"
     - name: kaggle
       url: "https://kaggle.com/amirpourmand"
     - name: huggingface
