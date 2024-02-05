@@ -82,6 +82,8 @@ Here, I list all other people which I haven't really watched lots of video from.
 - [Nicholas Renotte - YouTube](https://www.youtube.com/channel/UCHXa4OpASJEwrHrLeIzw7Yg)
 - [Hung-yi Lee - YouTube](https://www.youtube.com/c/HungyiLeeNTU/videos): Chinese
 
+## Recently Found Channels
+- [MLOps World: Machine Learning in Production](https://www.youtube.com/@mlopsworldmachinelearningi9769)
 ## A New way to look at Math
 These channels do not talk specifically about AI. Instead, they give intuitions about fundamental operations in Linear Algebra and Mathematics in general. I like them a lot. 
 
