@@ -93,6 +93,13 @@ In my opinion, these books are the best books to get a professional in ML field.
 ### ML Newsletters
 - [Alpha Signal](https://alphasignal.ai/latest-summary)
 
+### Reddit Communities
+- [Machine Learning](https://www.reddit.com/r/MachineLearning/top/?t=year)
+- [Learn Machine Learning](https://www.reddit.com/r/learnmachinelearning/top/?t=year)
+- [Deep Learning](https://www.reddit.com/r/deeplearning/)
+- [Python](https://www.reddit.com/r/Python/)
+- [ML Questions](https://www.reddit.com/r/MLQuestions/)
+
 ### Useful Libraries
 [mlxtend](https://rasbt.github.io/mlxtend): 
 
