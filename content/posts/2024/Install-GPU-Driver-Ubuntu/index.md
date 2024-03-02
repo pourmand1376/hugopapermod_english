@@ -106,7 +106,7 @@ Make sure to hit yes on this screen (default is no):
 If successful, you should see something like this when running `nvidia-smi`:
 ![](nvidia-smi.png)
 ## Blacklist Nouveau (when using VMWare ESXI)
-Sometimes, you may be working on a virtual machine that is hosted on VMware ESXi. ESXi is a bare-metal hypervisor developed by VMware for deploying and serving virtual machines. In that case, you may get errors like this after using `nvidia-smi`:
+Sometimes, you may be working on a virtual machine that is hosted on VMware ESXi. In that case, you may get errors like this after using `nvidia-smi`:
 ```
 no-devices-were-found
 ```
@@ -134,8 +134,6 @@ sudo ./NVIDIA-Linux-x86_64-550.54.14.run -m=kernel-open
 Note that `-m=kernel-open` is important. Otherwise, it wouldn't work. 
 
 Reboot the server afterwards and you are good to go. 
-
-> To utilize GPU resources for your virtual machines on ESXi, GPU passthrough needs to be properly configured by the ESXi administrator. This allows the virtual machine to gain exclusive access to one or more physical GPUs attached to the ESXi host system. Once GPU passthrough is enabled, the `nvidia-smi` command and other GPU tools will function properly from inside the virtual machine.
 ## Debugging
 Debugging NVIDIA installation is a hard task. Here's how to make it easier. 
 
@@ -167,7 +165,7 @@ However, personally, I wouldn't install that since I use Docker. I normally use 
 ## Add GPU Support For Docker
 First, you have to install docker using [this guide](https://docs.docker.com/engine/install/ubuntu/) (in case you don't have it already).
 
-Then, I would use [this tutorial](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html)to give GPU access to docker daemon. 
+Then, I would use [this tutorial](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html) to give GPU access to docker daemon. 
 
 In short, first add NVIDIA repositories to apt:
 ```bash
