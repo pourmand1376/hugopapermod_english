@@ -13,7 +13,7 @@ Also, there are some things I've learned which I'd like to share it.
 I've tested this on 3090 GPU and Ubuntu 22.04. Yours may vary a little but the procedure it the same. 
 
 ## Before Installation
-Install `build-essentials` if you don't have it:
+First, Install `build-essentials` if you don't have it:
 ```
 sudo apt install build-essential
 ```
@@ -21,7 +21,7 @@ sudo apt install build-essential
 Then, you have to update `gcc` to the latest version (default is 11). Otherwise, you may get errors like this one:
 
 ```
-unrecognized command-line option -ftrivial-auto-var-init=zero'
+unrecognized command-line option -ftrivial-auto-var-init=zero
 ```
 
 In order to update GCC compiler, you just need to run these two commands ([Reference](https://askubuntu.com/questions/1500017/ubuntu-22-04-default-gcc-version-does-not-match-version-that-built-latest-default)):
@@ -48,15 +48,17 @@ I would also install `vulkan` package to remove the warning which says:
 ```
  WARNING: This NVIDIA driver package includes Vulkan components, but no Vulkan ICD loader was detected on this system. The NVIDIA Vulkan ICD will not function without the loader. Most distributions package the Vulkan loader; try installing the "vulkan-loader", "vulkan-icd-loader", or "libvulkan1" package.
 ```
-The command to install `vulkan` would be ([Reference](https://docs.heavy.ai/installation-and-configuration/installation/installing-on-ubuntu/install-nvidia-drivers-and-vulkan-on-ubuntu)):
+The command to install `vulkan` is ([Reference](https://docs.heavy.ai/installation-and-configuration/installation/installing-on-ubuntu/install-nvidia-drivers-and-vulkan-on-ubuntu)):
 ```
 sudo apt install libvulkan1
 ```
 
 ## Downloading and installing the driver
-Then you should download the NVIDIA driver from [here](https://www.nvidia.com/download/index.aspx). In my experience, normally the latest and greatest version of NVIDIA would be found here. 
+You should now download the NVIDIA driver from [here](https://www.nvidia.com/download/index.aspx). In my experience, normally the latest and greatest version of NVIDIA would be found there. 
 
-There are also some ways to install NVIDIA drivers using package managers like apt. But personally, I find this way better. Also, some drivers have more up-to-date versions on Official NVIDIA site. 
+There are also some ways to install NVIDIA drivers using package managers like apt. But personally, I find this way better and more reliable. Also, some drivers have more up-to-date versions on Official NVIDIA site. 
+
+For example, at the time of writing this article, NVIDIA driver version 550 is not available on apt. But, it is easily downloadable via NVIDIA Official website. 
 
 To see your GPU information use ([Reference](https://askubuntu.com/questions/5417/how-to-get-the-gpu-info)):
 ```
@@ -81,6 +83,8 @@ lspci | grep -i nvidia
 ![](gpu-drivers.png)
 
 It shows that I am using RTX 3090. Then, I would choose the operating system as `linux 64-bit` and download type as `production branch`. It would show something like [this page](https://www.nvidia.com/Download/driverResults.aspx/218826/en-us/).
+![](driver-download-index-page.png)
+![](download-gpu-driver.png)
 
 Then you download a `.run` file. Change the permission and run the file as root:
 ```
@@ -102,12 +106,12 @@ Make sure to hit yes on this screen (default is no):
 If successful, you should see something like this when running `nvidia-smi`:
 ![](nvidia-smi.png)
 ## Blacklist Nouveau (when using VMWare ESXI)
-Sometimes, it may happen that you are behind an ESXI. In that situation, you may get error like this after using `nvidia-smi`:
+Sometimes, you may be working on a virtual machine that is hosted on VMware ESXi. ESXi is a bare-metal hypervisor developed by VMware for deploying and serving virtual machines. In that case, you may get errors like this after using `nvidia-smi`:
 ```
 no-devices-were-found
 ```
 
-In that case, you should also do the following ([Reference](https://forums.developer.nvidia.com/t/nvidia-smi-no-devices-were-found-vmware-esxi-ubuntu-server-20-04-03-with-rtx3070/202904/39)).
+To solve it, you should also do the following ([Reference](https://forums.developer.nvidia.com/t/nvidia-smi-no-devices-were-found-vmware-esxi-ubuntu-server-20-04-03-with-rtx3070/202904/39)).
 
 ```
 mkdir -p /etc/modprobe.d/
@@ -130,6 +134,8 @@ sudo ./NVIDIA-Linux-x86_64-550.54.14.run -m=kernel-open
 Note that `-m=kernel-open` is important. Otherwise, it wouldn't work. 
 
 Reboot the server afterwards and you are good to go. 
+
+> To utilize GPU resources for your virtual machines on ESXi, GPU passthrough needs to be properly configured by the ESXi administrator. This allows the virtual machine to gain exclusive access to one or more physical GPUs attached to the ESXi host system. Once GPU passthrough is enabled, the `nvidia-smi` command and other GPU tools will function properly from inside the virtual machine.
 ## Debugging
 Debugging NVIDIA installation is a hard task. Here's how to make it easier. 
 
@@ -149,7 +155,7 @@ Also, `dmesg` would help (make sure to run it after `nvidia-smi` to see more inf
 sudo dmesg
 ```
 
-## Installing CUDA
+## Installing CUDA Toolkit
 After installing GPU, you would need to install cuda on the server.
 
 Make sure to read this tutorial and go along with it. 
