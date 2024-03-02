@@ -142,6 +142,7 @@ In case you have problem during installation, two commands help:
 ```
 less /var/log/nvidia-installer.log
 ```
+NVIDIA installer won't show any detail in case there is an error. You should use the log file to see the issues. 
 
 ```
 sudo nvidia-bug-report.sh
