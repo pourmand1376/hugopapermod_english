@@ -206,7 +206,7 @@ You should now be able to run:
 ```
 docker run --gpus all nvidia/cuda:11.7.1-cudnn8-devel-ubuntu22.04 nvidia-smi
 ```
-
+The output should be the same as running `nvidia-smi` on bare-metal (outside docker).
 ## References
 - [Ubuntu 22.04 default GCC version does not match version that built latest default kernel - Ask Ubuntu](https://askubuntu.com/questions/1500017/ubuntu-22-04-default-gcc-version-does-not-match-version-that-built-latest-default)
 - [Nvidia-smi "No devices were found" - VMWare ESXI Ubuntu Server 20.04.03 with RTX3070 - Graphics / Linux / Linux - NVIDIA Developer Forums](https://forums.developer.nvidia.com/t/nvidia-smi-no-devices-were-found-vmware-esxi-ubuntu-server-20-04-03-with-rtx3070/202904/38)
