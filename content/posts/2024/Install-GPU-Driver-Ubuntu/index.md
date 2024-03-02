@@ -156,15 +156,60 @@ sudo dmesg
 ```
 
 ## Installing CUDA Toolkit
-After installing GPU, you would need to install cuda on the server.
-
-Make sure to read this tutorial and go along with it. 
+After installing GPU, you might need to install CUDA on the server. Make sure to read this tutorial and go along with it. 
 
 [NVIDIA CUDA Installation Guide for Linux](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html)
 
-Personally, I wouldn't install that since I use docker. I normally use docker base images which have CUDA inside them. But if you want to run code on bare metal, you can install CUDA.
+However, personally, I wouldn't install that since I use Docker. I normally use docker base images which have CUDA inside them. But if you want to run code on bare metal, you can install CUDA.
+
+> NVIDIA says: you do not need to install the CUDA Toolkit on the host system, but the NVIDIA driver needs to be installed. [GitHub - NVIDIA/nvidia-container-toolkit: Build and run containers leveraging NVIDIA GPUs](https://github.com/NVIDIA/nvidia-container-toolkit)
+
+## Add GPU Support For Docker
+First, you have to install docker using [this guide](https://docs.docker.com/engine/install/ubuntu/) (in case you don't have it already).
+
+Then, I would use [this tutorial](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html)to give GPU access to docker daemon. 
+
+In short, first add NVIDIA repositories to apt:
+```bash
+curl -fsSL https://nvidia.github.io/libnvidia-container/gpgkey | sudo gpg --dearmor -o /usr/share/keyrings/nvidia-container-toolkit-keyring.gpg \
+  && curl -s -L https://nvidia.github.io/libnvidia-container/stable/deb/nvidia-container-toolkit.list | \
+    sed 's#deb https://#deb [signed-by=/usr/share/keyrings/nvidia-container-toolkit-keyring.gpg] https://#g' | \
+    sudo tee /etc/apt/sources.list.d/nvidia-container-toolkit.list
+```
+
+Then install `nvidia-container-toolkit`:
+```bash
+sudo apt-get update
+sudo apt-get install -y nvidia-container-toolkit
+```
+
+After that, you need to update `daemon.json` using:
+```bash
+sudo nvidia-ctk runtime configure --runtime=docker
+sudo systemctl restart docker
+```
+
+```bash
+cat /etc/docker/daemon.json
+```
+Output:
+```
+{
+    "runtimes": {
+        "nvidia": {
+            "args": [],
+            "path": "nvidia-container-runtime"
+        }
+    }
+```
+
+You should now be able to run: 
+```
+docker run --gpus all nvidia/cuda:11.7.1-cudnn8-devel-ubuntu22.04 nvidia-smi
+```
 
 ## References
 - [Ubuntu 22.04 default GCC version does not match version that built latest default kernel - Ask Ubuntu](https://askubuntu.com/questions/1500017/ubuntu-22-04-default-gcc-version-does-not-match-version-that-built-latest-default)
 - [Nvidia-smi "No devices were found" - VMWare ESXI Ubuntu Server 20.04.03 with RTX3070 - Graphics / Linux / Linux - NVIDIA Developer Forums](https://forums.developer.nvidia.com/t/nvidia-smi-no-devices-were-found-vmware-esxi-ubuntu-server-20-04-03-with-rtx3070/202904/38)
 - [NVIDIA Driver Downloads](https://www.nvidia.com/Download/index.aspx)
+- [How to Use GPUs from a Docker Container | Saturn Cloud Blog](https://saturncloud.io/blog/how-to-use-gpu-from-a-docker-container-a-guide-for-data-scientists-and-software-engineers/)
