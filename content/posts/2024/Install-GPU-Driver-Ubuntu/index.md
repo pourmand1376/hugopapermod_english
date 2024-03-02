@@ -212,3 +212,4 @@ The output should be the same as running `nvidia-smi` on bare-metal (outside doc
 - [Nvidia-smi "No devices were found" - VMWare ESXI Ubuntu Server 20.04.03 with RTX3070 - Graphics / Linux / Linux - NVIDIA Developer Forums](https://forums.developer.nvidia.com/t/nvidia-smi-no-devices-were-found-vmware-esxi-ubuntu-server-20-04-03-with-rtx3070/202904/38)
 - [NVIDIA Driver Downloads](https://www.nvidia.com/Download/index.aspx)
 - [How to Use GPUs from a Docker Container | Saturn Cloud Blog](https://saturncloud.io/blog/how-to-use-gpu-from-a-docker-container-a-guide-for-data-scientists-and-software-engineers/)
+- [NVIDIA Container Toolkit Installation Guide](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/1.8.0/install-guide.html)
