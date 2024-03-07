@@ -103,6 +103,14 @@ sysdm.cpl ,3
 
 ![](performance-option.png#center)
 
+## 7- Disable Unnecessary Windows Services
+Go to services by typing the following command in the run and sort services by their running status (to see running services). 
+```
+services.msc
+```
+Then right click on service name and choose `Properties`. From this page, change `startup type` to manual and stop the service. 
+![](disable-service.png)
+
 ## 8- Other Minor Tweaks
 - Select Performance Mode in `Power and Sleep Plans`
 - Turn off Game Mode
