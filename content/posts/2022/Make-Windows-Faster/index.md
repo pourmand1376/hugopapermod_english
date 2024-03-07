@@ -110,7 +110,7 @@ services.msc
 ```
 Then right click on service name and choose `Properties`. From this page, change `startup type` to manual and stop the service. 
 ![](disable-service.png)
-
+[Here](https://www.groovypost.com/howto/12-windows-10-services-that-are-safe-to-disable/) is a list of less-useful services that you can disable (if you don't need).
 ## 8- Other Minor Tweaks
 - Select Performance Mode in `Power and Sleep Plans`
 - Turn off Game Mode
