@@ -115,6 +115,7 @@ Then right click on service name and choose `Properties`. From this page, change
 - Select Performance Mode in `Power and Sleep Plans`
 - Turn off Game Mode
 
+Also, there is a nice tutorial [here (reddit)](https://www.reddit.com/r/Windows11/comments/10bmxy8/fresh_windows_11_install_how_to_optimize_what_to/) on how to disable other useless things in windows and speed it up. 
 ## Resources 
 - [Making Windows Faster without Tools](https://www.youtube.com/watch?v=GOz_foQcPcY)
 - [Before you continue to YouTube](https://www.youtube.com/channel/UCg6gPGh8HU2U01vaFCAsvmQ)
