@@ -117,6 +117,7 @@ Find the right commands you need without digging through the web.
 
 [Etymonline - Online Etymology Dictionary](https://www.etymonline.com/)
 
+[Excalidraw | Hand-drawn look & feel • Collaborative • Secure](https://excalidraw.com/)
 ## High-Quality Images
 
 - [https://pixabay.com/](https://pixabay.com/)  
