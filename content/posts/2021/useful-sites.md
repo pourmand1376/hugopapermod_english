@@ -86,6 +86,9 @@ Photoshop-like software for editing purposes. It is a fantastic alternative for 
 
 You can call any API with Postman.
 
+[HTTPie for Web — API testing client](https://httpie.io/app)
+Postman Alternative. But better!
+
 [Gitpod](https://www.gitpod.io/)
 
 [JSON Crack](https://jsoncrack.com/)
