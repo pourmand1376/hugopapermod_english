@@ -39,4 +39,6 @@ The reason for this setting is that the voice should be only recorder through OB
 
 ![](audioMixer.png)
 
-Now, you can `Start Recording`. I hope this is an easy to do tutorial for you. 
+Now, you can `Start Recording`. Also, Don't forget to mute all your notifications. 
+
+I hope this is an easy to do tutorial for you. 
