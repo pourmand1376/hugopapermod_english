@@ -12,7 +12,9 @@ Here's how you can do it step by step.
 
 First, install OBS Studio (which is available on all OSes) and open it up. 
 
-Before recording anything, you should set your Base Canvas Resolution. Otherwise, you may end up with odd resolutions which are hard to edit. I am using Macbook and the default resolution is not well suited for youtube (You can optionally set FPS to 30).
+Before recording anything, you should set your Base Canvas Resolution. Otherwise, you may end up with odd resolutions which are hard to edit. I am using Macbook and the default resolution is not well suited for youtube (You can optionally set FPS to 30). 
+
+To open up this window, go to settings menu:
 
 ![](FrameSetting.png)
 
