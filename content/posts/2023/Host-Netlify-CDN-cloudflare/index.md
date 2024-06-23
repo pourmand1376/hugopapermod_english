@@ -39,4 +39,7 @@ After that, go to **Rules** -> **Page Rules** -> **Create Page Rule** and add a 
 
 ![](cache-level-CDN.png)
 
+> This step has been previously deprecated since `Page Rules` are being replaced ([+](https://developers.cloudflare.com/rules/reference/page-rules-migration/)). To fix this problem, go into `Cache Rules` and set it like this. 
+> ![](cache_rules.png)
+
 I used this way for a long time. The only problem is that sometimes (maybe once in a year), netlify IP Addresses change and you have to remove the site and add it again. 
