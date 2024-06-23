@@ -13,6 +13,13 @@ I've been working for some time with Linux and I feel that sharing some scripts 
 history | grep seach_string
 ```
 or `Ctrl+R`. 
+
+### Search Log files
+In order to search a folder to see if a string exists in the whole folder:
+
+```bash
+grep -ir "string to search" .
+```
 ### Show File and Folder Size
 To analyze file size, there are several ways. 
 
@@ -151,6 +158,8 @@ curl cheat.sh/tar
 ```
 
 Also, see [GitHub - jlevy/the-art-of-command-line: Master the command line, in one page](https://github.com/jlevy/the-art-of-command-line). 
+
+- [explainshell.com - match command-line arguments to their help text](https://explainshell.com/)
 ### A list of Great Tools to install
 - [CLI tools you won't be able to live without 🔧 - DEV Community](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6)
 - [My Favorite CLI Tools](https://switowski.com/blog/favorite-cli-tools/)
