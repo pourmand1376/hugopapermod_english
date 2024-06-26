@@ -18,7 +18,7 @@ First, Install `build-essentials` if you don't have it:
 sudo apt install build-essential
 ```
 
-Then, you have to update `gcc` to the latest version (default is 11). Otherwise, you may get errors like this one:
+(Optional) Then, sometimes you have to update `gcc` to the latest version (default is 11). Otherwise, you may get errors like this one:
 
 ```
 unrecognized command-line option -ftrivial-auto-var-init=zero
@@ -91,6 +91,8 @@ Then you download a `.run` file. Change the permission and run the file as root:
 chmod +x NVIDIA-Linux-x86_64-550.54.14.run
 sudo ./NVIDIA-Linux-x86_64-550.54.14.run
 ```
+
+Note that you can start downloading in your browser, and then copy the link into VM machine that you have and `wget link` to download it inside VM. 
 
 This should normally work and do the job for you. I would say yes on everything it would say afterwards. 
 ![](already-installed.png)
