@@ -1,5 +1,5 @@
 ---
-title: Azure Slack Integration
+title: How to Automatically Send Azure Alerts into Slack Channels
 date: 2024-06-28
 tags:
   - azure
