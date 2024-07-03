@@ -61,3 +61,8 @@ You can now start configuring it more. And also add more sections to this config
 
 But I can't think about anything more simple to get me to the point where I am. I normally have multiple docker containers which I need to expose to the internet via some url and this is the way I do it! 
 
+Note that you can restart caddy by both of these commands:
+```
+sudo systemctl reload caddy
+sudo systemctl restart caddy
+```
