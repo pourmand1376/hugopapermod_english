@@ -6,15 +6,11 @@ tags:
   - technology
   - linux
 ---
-I've recently found Caddy as a tool to assign urls to my docker services and I'm quite happy with it. 
+I've recently found Caddy as a tool to assign urls to my docker services and I'm quite happy with it. I've done other reverse proxies like Nginx and Traefik in the past but they are too complicated for my needs. 
 
-What I've learned is related to this video and my own research about it. 
+Let's start. 
 
-- [Self Host 101 - Run Multiple Apps with Caddy | DNS, Static Sites, Reverse Proxies and Let's Encrypt - YouTube](https://www.youtube.com/watch?v=mLznVlBAtcg)
-
-As you know, you should use reverse proxy to assign URLs to IP addresses. There are multiple other use cases for this. But I will focus on this for now. 
-
-Let's say that you want to assign your url like `newservice.amirpourmand.ir` to your IP address. I'll go you through it. 
+Let's say that you want to assign your url like `newservice.amirpourmand.ir` to a service in a VM with a public IP address. I'll go you through it. 
 
 Also, It has multiple benefits. The first one is that you don't have to do IPs. You don't have to deal with ugly IPs that may change in the future. You deal with Secure URLs. The second is that the connection is `https`. 
 
@@ -72,3 +68,7 @@ sudo systemctl restart caddy
 ```
 
 Note2: Don't forget to open port 80 and 443 on your VM. Most likely it is blocked by your VM service provider and you should allow that. (You don't have to allow internal ports like 8000 in this example. Caddy internally routes external requests to these ports).
+
+### References
+What I've learned is related to this video and my own research about it. 
+- [Self Host 101 - Run Multiple Apps with Caddy | DNS, Static Sites, Reverse Proxies and Let's Encrypt - YouTube](https://www.youtube.com/watch?v=mLznVlBAtcg)
