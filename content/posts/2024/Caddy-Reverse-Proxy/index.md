@@ -70,3 +70,5 @@ Note that you can restart caddy by both of these commands:
 sudo systemctl reload caddy
 sudo systemctl restart caddy
 ```
+
+Note2: Don't forget to open port 80 and 443 on your VM. Most likely it is blocked by your VM service provider and you should allow that. (You don't have to allow internal ports like 8000 in this example. Caddy internally routes external requests to these ports).
