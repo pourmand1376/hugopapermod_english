@@ -140,6 +140,11 @@ A good website which I use from time to time to check my internet connection.
 
 Just another clipboard service that I use
 
+### Developer Documentation
+- [tldr InBrowser.App](https://tldr.inbrowser.app/)
+- [cheat.sh/:firstpage](https://cheat.sh/)
+- [DevDocs API Documentation](https://devdocs.io/)
+
 ## Fun Sites (Learn via Game)
 - [Explorable Explanations](https://explorabl.es/)
 
