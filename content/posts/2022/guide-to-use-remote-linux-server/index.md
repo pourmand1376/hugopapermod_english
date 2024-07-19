@@ -105,7 +105,7 @@ This is especially good for commands that do not take long time to run. If you h
 
 Here is a simple tmux session I have created. Note that the session has 6 open tabs. Each of them may do something different. 
 
-![](tmux.png#center)
+![](tmux.webp#center)
 
 
 > If you install tmux, out of the box, it won't look like this. You have to install [Oh-my-tmux](https://github.com/gpakosz/.tmux) to make it look pretty. It is pretty easy to install. Just copy these lines and you're set. 
@@ -161,7 +161,7 @@ Now for package installation, you can use both `conda install` and `pip install`
 
 I can't think anyone not using this tool. It shows you all processes and their memory usuage and what not. 
 
-![](htop.png#center)
+![](htop.webp#center)
 
 You can also use [btop](https://github.com/aristocratos/btop) as an alternative. 
 ## Nvidia-htop
@@ -186,7 +186,7 @@ echo "source ~/.profile" >> ~/.bashrc
 echo "source ~/.profile" >> ~/.zshrc
 ```
 
-![](nvidia-htop.png#center)
+![](nvidia-htop.webp#center)
 
 > `nvidia-htop` only shows the current status of GPU. It may change in a few seconds. To monitor GPU status regularly use `watch nvidia-htop.py`. This way you don't have to constantly type `nvidia-htop` over and over again. 
 
@@ -194,7 +194,7 @@ echo "source ~/.profile" >> ~/.zshrc
 
 This one is very similar with `nvidia-htop` but it shows more! 
 
-![](nvitop.png#center)
+![](nvitop.webp#center)
 
 Installation is also very easy:
 ```bash
@@ -209,7 +209,7 @@ If you use your GPUs inside Docker containers, you can not see which container i
 
 In this scenario, you should use [`NvidiaDockerStats`](https://github.com/AllenCellModeling/nvidia-docker-stats/) and it will show you something like this:
 
-![](nvidiadockerstats.png)
+![](nvidiadockerstats.webp)
 
 Thanks for reading this far. 
 

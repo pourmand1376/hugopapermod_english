@@ -16,36 +16,36 @@ Before recording anything, you should set your Base Canvas Resolution. Otherwise
 
 To open up this window, go to settings menu:
 
-![](FrameSetting.png)
+![](FrameSetting.webp)
 
 Then click on + Icon to create a new scene. Let's call it `GoogleMeetRecorder`. 
 
-![](AddNewScene.png#center)
+![](AddNewScene.webp#center)
 
-After creating a scene, you can add some `Sources` to the scene.![](AddBrowser.png#center)
+After creating a scene, you can add some `Sources` to the scene.![](AddBrowser.webp#center)
 
-![](GoogleMeetBrowser.png)Now A Window should appear which asks you how to configure the browser in OBS. Here are some notes you should pay attention to:
+![](GoogleMeetBrowser.webp)Now A Window should appear which asks you how to configure the browser in OBS. Here are some notes you should pay attention to:
 - Set the URL to the meeting url that you want to record
 - Set appropriate width and height (I suggest 1920 by 1080)
 - Be Careful to check `Control Audio via OBS`, otherwise, you would have echo and you will hear your voice multiple times.
 
-![](BrowserConfig.png#center)
+![](BrowserConfig.webp#center)
 
 Then you have to fit the source to the scene. Here's how to do it:
-![](FitToScene.png)
+![](FitToScene.webp)
 
 You should now see a window pretty much like this. Make sure to hit `Interact`. Then a window would pop up. That's pretty much your browser and you can enter your name (something like Recorder) and ask to join the meeting. 
 
-![](Interact.png)
+![](Interact.webp)
 
 Once, you are accepted as a guest make sure you minimize yourself so that only people in the meeting are shown. 
 
-![](minimize.png)
+![](minimize.webp)
 You are pretty much done. Make sure your Audio Mixer Setting is set like me and you are done. 
 
 The reason for this setting is that the voice should be only recorder through OBS internal Browser. Here, If you don't disable your Microphone, you would also hear your voice twice in the recording (with some lag because of the internet). You don't want that. Right?
 
-![](audioMixer.png)
+![](audioMixer.webp)
 
 Now, you can `Start Recording`. Also, Don't forget to mute all your notifications. 
 

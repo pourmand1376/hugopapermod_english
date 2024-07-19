@@ -14,14 +14,14 @@ It is worth noting that Windows has multiple places for one thing, which can be 
 ## Metric
 To measure our progress and determine how much improvement we have made, we will use the **Process Count** as our metric. This can be found in the Task Manager and is a useful indicator of system performance. Ideally, we want to reduce the process count to around 100 processes.
 
-![](process-count.png#center)
+![](process-count.webp#center)
 
 It is unfortunate that Windows does not offer a central location to disable all unnecessary startup items at once. Instead, we must navigate to four different locations to disable all unnecessary items.
 
 ## 1. Disable Windows Startup 
 You can disable most items with an **Enabled** status here. However, I left some programs as enabled because I believe they are useful to have at startup.
 
-![](startup-apps.png#center)
+![](startup-apps.webp#center)
 
 ## 2. Windows Run
 To access the startup programs that are not shown in the previous menu, press `Win+R` or type `Run` and then paste each of the following items one by one. From here, you can delete any shortcuts you do not want to run at startup.
@@ -33,7 +33,7 @@ shell:startup
 shell:common startup
 ```
 
-![](run-startup.png#center)
+![](run-startup.webp#center)
 
 ## 3. Registry
 To open the Registry Editor, type `regedit` in the Run dialogue box and navigate to the following directories. 
@@ -58,7 +58,7 @@ To access the Task Scheduler and disable unnecessary items, follow these steps:
 
 Note: It is important not to delete these items, as they may be recreated. Simply disabling them will prevent them from running.
 
-![](task-scheduler.png#center)
+![](task-scheduler.webp#center)
 
 ## 5. Debloat Windows Tool
 To use the Windows Utility tool created by Chris Titus Tech, follow these steps:
@@ -99,9 +99,9 @@ sysdm.cpl ,3
 4.  In the Performance Options window, you can choose the "Custom" mode and select only the visual effects that you want to keep. Personally, I recommend enabling the "Show thumbnails instead of icons" and "Smooth edges of screen fonts" options, as this can improve the performance of the system without significantly affecting appearance.
 
 
-![](system-properties.png#center)
+![](system-properties.webp#center)
 
-![](performance-option.png#center)
+![](performance-option.webp#center)
 
 ## 7- Disable Unnecessary Windows Services
 Go to services by typing the following command in the run and sort services by their running status (to see running services). 
@@ -109,7 +109,7 @@ Go to services by typing the following command in the run and sort services by t
 services.msc
 ```
 Then right click on service name and choose `Properties`. From this page, change `startup type` to manual and stop the service. 
-![](disable-service.png)
+![](disable-service.webp)
 [Here](https://www.groovypost.com/howto/12-windows-10-services-that-are-safe-to-disable/) is a list of less-useful services that you can disable (if you don't need).
 ## 8- Other Minor Tweaks
 - Select Performance Mode in `Power and Sleep Plans`

@@ -18,7 +18,7 @@ First, you have to clone this repository as `al-folio.github.io` (if you have al
 
 Then Go to Actions Tab and Enable `GitHub Actions`.
 
-![](enable_actions.png#center)
+![](enable_actions.webp#center)
 Then you need to change `url` into `al-folio.github.io` and change `baseurl` into nothing! Just like this:
 
 ```yaml
@@ -37,7 +37,7 @@ Now, go to `Repository Settings` > `Pages`.
 
 Choose `gh-pages` branch and root directory just like me. 
 
-![](gh-pages.png#center)
+![](gh-pages.webp#center)
 
 Now, Github actions will try to build `Page Build and Deployment Action`. If it is successful your website should be up and running in 10 minutes. 
 
@@ -46,10 +46,10 @@ After performing all the required actions, the `github-pages` bot comes into p
 
 ### Debug! 
 You can check status of `github-pages` using Environments Section of your github repository. For example, here it says that `9ebc1c9` commit was deployed successfully by github pages. You can check this commit to the latest commit in `gh-pages` branch. 
-![](ghpages-action.png)
-![](deployment_status.png)
+![](ghpages-action.webp)
+![](deployment_status.webp)
 You can also see from `gh-pages` branch that `9ebc1c9` is the last commit. It says that this was generated from `5d3f650` commit from master branch. This can become handy if you have problem and you do not know where is the source of the problem. 
-![](ghpages-branch-information.png)
+![](ghpages-branch-information.webp)
 
 
 > If you have problems, make sure that both of your Github Actions are successful. Make sure branch is set to `gh-pages` and also check your website url and baseurl. These are some most common problems people have in `Jekyll` websites. 

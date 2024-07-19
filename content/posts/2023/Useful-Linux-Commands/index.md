@@ -58,7 +58,7 @@ sudo apt install ncdu
 ```
 
 This way, I would be able to easily navigate between folders and find out which folder is taking the most space. 
-![](ncdu.png)
+![](ncdu.webp)
 
 ### Test Access to a Server or Service
 This is especially the case in big companies when you should request access for a server. They may give the network access to you but not SSH access. Or you may just want to troubleshoot your network and what not. 
@@ -148,7 +148,7 @@ tldr --update
 
 Install `tldr` (too long didn't read) and then use `tldr find`. This way you would find a much better and easy to follow documentation. Just take a look at it. Isn't that better? ([+](https://github.com/tldr-pages/tldr) / [+](https://github.com/isacikgoz/tldr))
 
-![](tldr.png)
+![](tldr.webp)
 
 Or, If you don't want to install anything, you can just use [`cheat.sh`](https://cheat.sh/) like this:
 

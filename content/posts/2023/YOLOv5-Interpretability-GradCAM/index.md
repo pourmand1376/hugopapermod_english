@@ -28,7 +28,7 @@ PIL.image.fromarray(image)
 ```
 This is the easiest way. Just mention the name of the method and say its source image. Here, we make a **post-hoc** explanation (or interpretation) via **GradCAM** and return a heatmap. It could be something like this. 
 
-![cat-dog-default](cat-dog-default.png#center)
+![cat-dog-default](cat-dog-default.webp#center)
 
 > You can see a full demo at `explainer/demo.ipynb` file. If you want to work with that in colab, [here](https://colab.research.google.com/github/pourmand1376/yolov5/blob/add_gradcam/explainer/demo.ipynb) is the direct link to it. 
 
@@ -88,7 +88,7 @@ from explainer.explainer import run
 run(source='cat-dog.jpg',method='GradCAM',class_names=['dog'])
 ```
 
-![dog-class](dog-class.png#center)
+![dog-class](dog-class.webp#center)
 ### Backward Per Class
 Sometimes, one class can dominate the other classes in a given dataset. In such situations, it is recommended to apply the backward method to each class separately and then average out the resulting heatmaps. This is exactly what `Backward_per_class ` does. 
 
@@ -98,7 +98,7 @@ from explainer.explainer import run
 run(source='cat-dog.jpg',method='GradCAM',backward_per_class=True)
 ```
 
-![backward_per_class](cat-dog-backward-per-class.png#center)
+![backward_per_class](cat-dog-backward-per-class.webp#center)
 
 ### Backprop Array
 This is one of the most complex arrays to understand, as it determines which item to use for backward computation. There are several options available, including `class`, `confidence`, `class_confidence`, `x_center`, `y_center`, `height`, and `width`.
@@ -126,7 +126,7 @@ else:
 	raise NotImplementedError('Not implemented')
 ```
 Here is an example using `confidence` score. 
-![](confidence-cat-dog.png)
+![](confidence-cat-dog.webp)
 
 ## Code Reasoning
 In this section, I will provide an explanation for each line of code and the reasoning behind using it. 
@@ -153,7 +153,7 @@ But first, you have to understand YOLOv5 output before NMS and after NMS.
 Most YOLO models define their loss function before performing non-maximum suppression (NMS). NMS is not a part of the model itself, which is trained and performs calculations, but rather a post-processing step used to filter out redundant bounding boxes.
 
 In YOLOv5, `DetectMultiBackend` outputs this matrix. Note that all items in this matrix have their gradients enabled. 
-![](ModelRawOutput.png#center)
+![](ModelRawOutput.webp#center)
 The YOLO model outputs a matrix of size "NumberOfPredictions x Prediction," which can have tens or hundreds of thousands of predictions per image. This is why Non-maximum suppression (NMS) is necessary to filter out redundant bounding boxes.
 
 When evaluating the model output, a tuple of two elements is returned. The first element is the prediction matrix, and the second element is a matrix containing head predictions one by one. Knowing what each head predicted can sometimes be useful.
@@ -199,7 +199,7 @@ output.pandas().xyxy[0]
 ```
 
 It will output a matrix like this:
-![](autoshapedOutput.png#center)
+![](autoshapedOutput.webp#center)
 
 ### Run()
 This method is the starting point for my program. Here, I have used `DetectMultiBackend` and `AutoShape` to get the results before NMS and after NMS. 
@@ -292,7 +292,7 @@ To calculate the score, there are multiple ways to approach it. One common metho
 
 Maybe it would be a little more clear if you take a look at image below. 
 
-![method1](method1.png#center)
+![method1](method1.webp#center)
 
 There is also another method that Grad-CAM library proposes [here](https://jacobgil.github.io/pytorch-gradcam-book/Class%20Activation%20Maps%20for%20Object%20Detection%20With%20Faster%20RCNN.html). This is implemented for Faster-RCNN and I've taken this approach on `YOLOBoxScoreTarget2`. 
 
@@ -303,7 +303,7 @@ Here's the procedure:
 - Finally, The library would call backward on that score. 
 
 Here's the image:
-![method_iou](method_iou.png#center)
+![method_iou](method_iou.webp#center)
 
 Here's the code:
 ```python

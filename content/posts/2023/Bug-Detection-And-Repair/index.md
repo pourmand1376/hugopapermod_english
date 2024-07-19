@@ -154,7 +154,7 @@ Additionally, issues will often have a direct relation to pull requests,
 as most standard repositories have some related issues to each PR. This
 approach is illustrated in below figure. 
 
-![Generating Appropriate Input and Output labels from Github Repositories](GithubData.png)
+![Generating Appropriate Input and Output labels from Github Repositories](GithubData.webp)
 Figure 1: Generating Appropriate Input and Output labels from Github Repositories
 
 #### Self Supervised Approach
@@ -179,7 +179,7 @@ likely to be identified as a bug. However, we do not test this concept
 in the early stages as it would add complexity to the model, and we
 believe that the most successful AI models are the simplest ones.
 
-![image](proposedModel.png)
+![image](proposedModel.webp)
 Figure 2: Proposed Model
 
 ### Bug Fixer

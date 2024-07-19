@@ -17,7 +17,7 @@ Also, It has multiple benefits. The first one is that you don't have to do IPs. 
 ### Step 1: Domain Dashboard
 First, go to your domain dashboard and set an A record to point your url to an IP address. This is different for each provider. For example, for Cloudflare DNS, you would see something like this:
 
-![](Domain_dashboard.png)
+![](Domain_dashboard.webp)
 Just add a subdomain (or full domain) and provide the public IP address of your server. 
 
 To get public IP address, use:
@@ -37,7 +37,7 @@ sudo apt install -y debian-keyring debian-archive-keyring apt-transport-https cu
 ```
 
 Then, run `sudo systemctl restart caddy` and type your IP in the browser, you should see something like this:
-![](Caddy_url.png)
+![](Caddy_url.webp)
 ### Step 3: Configure Caddy
 The Documentation is simple enough to install but not quite simple to configure it. 
 
@@ -51,7 +51,7 @@ test.amirpourmand.ir {
 }
 ```
 
-![](Caddyfile.png)
+![](Caddyfile.webp)
 
 That's it! Restart Caddy via `sudo systemctl restart caddy` and you should see your url which points to this service. It is also https by default. 
 

@@ -16,31 +16,31 @@ Let's do it, step by step.
 
 ### Step 1: Setting Up Azure Alerts
 
-![](ApplicationInsights.png)
+![](ApplicationInsights.webp)
 
 Create a new `Application Insight` if you don't have any. Then go into `Investigate -> Availability`. 
 
-![](Availability.png)
+![](Availability.webp)
 Here you can add some availability tests like I've done. 
 
-![](AvailabilityPanel.png)
+![](AvailabilityPanel.webp)
 
 Adding is also easy. You can add `Standard Test` and provide your url to test on a regular basis. 
 
-![](CreatingStandardTest.png)
+![](CreatingStandardTest.webp)
 
 This was easy. What I wanted to do was to `Azure` inform all team developers when certain conditions are met. For example, I want to know, when a specific service is not available. 
 
 So, In order to obtain that objective, right click on the Test that you have created and click `Open Rules Page` (if you don't see an rules, you should wait a little and try again). 
 
-![](OpenRulesPage.png)
+![](OpenRulesPage.webp)
 
 Azure should automatically create a certain rule for you. You can create whatever rule you want, but this one is OK in our case and this is exactly what I want. I want to be informed when this specific test has failed in `more than two locations`
 
-![](createdRule.png)
+![](createdRule.webp)
 If you click on it. You would see a page like this. You need to change the description field here. This field is what we would receive on our `azure-notifications` channel (which we will create). 
 
-![](AlertDescriptionField.png)
+![](AlertDescriptionField.webp)
 
 ### Step 2: Setting up A new Action Group
 Now we want to setup a new `Action Group` so that we can specify a `webhook`. Azure is complicated. You can not set alert rules so that they call a webhook url. You need to create an `Action Group` (which calls the url), and set the action group in alert rule. 
@@ -49,7 +49,7 @@ Just Azure stuff.
 
 Now, create an action group By Clicking the `Action Groups` in `Alerts`. 
 
-![](CreateActionGroup.png)
+![](CreateActionGroup.webp)
 
 Then, Hit `Create`. Specify an action group name and display name. This is typical. 
 
@@ -59,11 +59,11 @@ The important part is setting a webhook url for this Action Group. Currently, we
 
 It will automatically create a url for you. And you can see what is sent to it completely. 
 
-![](CreatingWebhook.png)
+![](CreatingWebhook.webp)
 
 Now hit create and go to the Action Group you created. You can now test it and send a `Log Alert V2` to see how it creates logs. 
 
-![](TestActionGroup.png)
+![](TestActionGroup.webp)
 
 Now, Watch `Webhook.site` for new requests. You will see a post request with a body like this:
 
@@ -126,7 +126,7 @@ We need to do two things:
 
 Second one is easy. Just go to your alert rule settings and set it. Don't worry. We can make this automatic in the Step 4. But that's really optional. 
 
-![](SetActionGroupForAlertRule.png)
+![](SetActionGroupForAlertRule.webp)
 ### Step 3: Setting Up Logic App
 
 OK. Until now, we have created a rule which can call a webhook. Now, we just need to create a service which to do two things:
@@ -136,14 +136,14 @@ OK. Until now, we have created a rule which can call a webhook. Now, we just nee
 
 I use `Logic App` for this purpose. 
 
-![](LogicApps.png)
+![](LogicApps.webp)
 
 Make sure to select Consumption type Logic App. 
-![](CreateLogicApp.png)
+![](CreateLogicApp.webp)
 
 Now go to the logic app you created an under `Developement Tools`, select `Logic App Designer`. Here is where we can design our application. 
 
-![](LogicAppDesigner.png)
+![](LogicAppDesigner.webp)
 
 Now, make sure you set the Request Body JSON schema to the JSON items I've you before. 
 
@@ -151,33 +151,33 @@ This is necessary since you want to select description field in the next section
 
 I hope you are not tired. This operation is getting a lot of time! 
 
-![](LogicAppHttpRequest.png)
+![](LogicAppHttpRequest.webp)
 
 Now, we have the description field. We want to send it into slack. 
 
 We will use a free plugin called `incoming webhook`. Go into your slack apps and find this app and hit `Add to Slack`. 
 
-![](IncomingWebhook.png)
+![](IncomingWebhook.webp)
 Then you can add it to a channel or create a new channel. Then click on `Add Incoming Webhooks Integration`.
 
-![](AddWebhookToChannel.png)
+![](AddWebhookToChannel.webp)
 
-![](WebhookUrlSlack.png)
+![](WebhookUrlSlack.webp)
 We now have slack webhook url. We can configure it in the `Logic App` easily. 
 
 Just make sure to use body as I've set it. 
-![](HTTPWebhookSlack.png)
+![](HTTPWebhookSlack.webp)
 
 Congratulations! It's finally done! It should've been easier. But once you set it, it would work forever. 
 ### Step 4 (Optional): Setting up Alert Processing Rule
 
 If you don't want to set `Action Group` for each and every `Alert Rule`, go along with me. 
 
-![](AlertProcessingRules.png)
+![](AlertProcessingRules.webp)
 
 Create an alert processing rule, set the scope to whatever you want (I recommend setting it to `this Application Insight` scope). Then in the rule settings, Apply a specific Action Group. 
 
 This way, all new alert rules would have this Action Group by default. 
 
-![](AlertProcessingRuleActionGroup.png)
+![](AlertProcessingRuleActionGroup.webp)
 

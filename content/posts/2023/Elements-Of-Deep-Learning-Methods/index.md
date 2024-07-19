@@ -25,7 +25,7 @@ After a while, if we use Darwinistic look, some functions that have very good pe
 
 They may even go further and provide some intuition about why that architecture (or specific function) works good. For example, they say that convolution is very near to how we, humans, see. But, I would rather see that as a simple function which has been tuned. 
 
-![](yolo-architecture.png)
+![](yolo-architecture.webp)
 For example, the above picture is about YOLO architecture. It takes a $488 \times 488$ image and outputs $7 \times 7 \times 30$. You can use whatever functions you want in the middle layers to get that output. It is by doing lots of experiments that researchers have understood that using an architecture like that is more helpful. 
 
 There is no mathematical proof that it would work all the time. But it works just fine in most cases. This is why we use it. 
@@ -43,7 +43,7 @@ For example, contrastive loss functions try to bring positive sample embedding p
 
 It is also possible that we have multiple goals in mind. In these scenarios, we define a function for each goal. Then, we use a weighted sum of the goals as loss function. 
 
-![](yolo-loss.png)
+![](yolo-loss.webp)
 Once again, this is YOLO loss. Take a look at it. 
 
 It has multiple goals in mind and it has defined a function for each of those goals. Then there is a weighted sum ($\lambda_{coords}$ and $\lambda_{noobj}$) to understand the importance of each function. 

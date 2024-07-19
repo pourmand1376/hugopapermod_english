@@ -80,11 +80,11 @@ or
 ```
 lspci | grep -i nvidia
 ```
-![](gpu-drivers.png)
+![](gpu-drivers.webp)
 
 It shows that I am using RTX 3090. Then, I would choose the operating system as `linux 64-bit` and download type as `production branch`. It would show something like [this page](https://www.nvidia.com/Download/driverResults.aspx/218826/en-us/).
-![](driver-download-index-page.png)
-![](download-gpu-driver.png)
+![](driver-download-index-page.webp)
+![](download-gpu-driver.webp)
 
 Then you download a `.run` file. Change the permission and run the file as root:
 ```
@@ -95,18 +95,18 @@ sudo ./NVIDIA-Linux-x86_64-550.54.14.run
 Note that you can start downloading in your browser, and then copy the link into VM machine that you have and `wget link` to download it inside VM. 
 
 This should normally work and do the job for you. I would say yes on everything it would say afterwards. 
-![](already-installed.png)
-![](continue-installation.png)
-![](building-kernel-modules.png)
-![](install-32-bit.png)
-![](rebuild-initramfs.png)
-![](rebuilding.png)
+![](already-installed.webp)
+![](continue-installation.webp)
+![](building-kernel-modules.webp)
+![](install-32-bit.webp)
+![](rebuild-initramfs.webp)
+![](rebuilding.webp)
 Make sure to hit yes on this screen (default is no):
-![](nvidia-x-driver.png)
-![](installed-nvidia-x-driver.png)
+![](nvidia-x-driver.webp)
+![](installed-nvidia-x-driver.webp)
 
 If successful, you should see something like this when running `nvidia-smi`:
-![](nvidia-smi.png)
+![](nvidia-smi.webp)
 ## Blacklist Nouveau (when using VMWare ESXI)
 Sometimes, you may be working on a virtual machine that is hosted on VMware ESXi. In that case, you may get errors like this after using `nvidia-smi`:
 ```
