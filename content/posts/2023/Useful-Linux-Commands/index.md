@@ -165,3 +165,6 @@ Also, see [GitHub - jlevy/the-art-of-command-line: Master the command line, in o
 - [My Favorite CLI Tools](https://switowski.com/blog/favorite-cli-tools/)
 - [The 10 Best CLI Tools 🛠️ for Software Developer’s👨‍💻 Productivity | Scalereal](https://scalereal.com/devops/2020/05/15/10-cli-tools-for-developers-productivity.html)
 - [GitHub - k4m4/terminals-are-sexy: 💥 A curated list of Terminal frameworks, plugins & resources for CLI lovers.](https://github.com/k4m4/terminals-are-sexy)
+
+Must see tutorial about shell scripts: 
+- [How to write enterprise-grade shell scripts - DEV Community](https://dev.to/thbe/howto-write-enterprise-grade-shell-scripts-1f17)
