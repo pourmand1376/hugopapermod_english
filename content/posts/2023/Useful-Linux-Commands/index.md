@@ -160,11 +160,6 @@ curl cheat.sh/tar
 Also, see [GitHub - jlevy/the-art-of-command-line: Master the command line, in one page](https://github.com/jlevy/the-art-of-command-line). 
 
 - [explainshell.com - match command-line arguments to their help text](https://explainshell.com/)
-### A list of Great Tools to install
-- [CLI tools you won't be able to live without 🔧 - DEV Community](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6)
-- [My Favorite CLI Tools](https://switowski.com/blog/favorite-cli-tools/)
-- [The 10 Best CLI Tools 🛠️ for Software Developer’s👨‍💻 Productivity | Scalereal](https://scalereal.com/devops/2020/05/15/10-cli-tools-for-developers-productivity.html)
-- [GitHub - k4m4/terminals-are-sexy: 💥 A curated list of Terminal frameworks, plugins & resources for CLI lovers.](https://github.com/k4m4/terminals-are-sexy)
 
 Must see tutorial about shell scripts: 
 - [How to write enterprise-grade shell scripts - DEV Community](https://dev.to/thbe/howto-write-enterprise-grade-shell-scripts-1f17)
@@ -175,3 +170,9 @@ For my purposes, I just add these these lines in any script I am writing:
 
 set -euo pipefail
 ```
+### A list of Great Tools to install
+- [CLI tools you won't be able to live without 🔧 - DEV Community](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6)
+- [My Favorite CLI Tools](https://switowski.com/blog/favorite-cli-tools/)
+- [The 10 Best CLI Tools 🛠️ for Software Developer’s👨‍💻 Productivity | Scalereal](https://scalereal.com/devops/2020/05/15/10-cli-tools-for-developers-productivity.html)
+- [GitHub - k4m4/terminals-are-sexy: 💥 A curated list of Terminal frameworks, plugins & resources for CLI lovers.](https://github.com/k4m4/terminals-are-sexy)
+
