@@ -168,3 +168,10 @@ Also, see [GitHub - jlevy/the-art-of-command-line: Master the command line, in o
 
 Must see tutorial about shell scripts: 
 - [How to write enterprise-grade shell scripts - DEV Community](https://dev.to/thbe/howto-write-enterprise-grade-shell-scripts-1f17)
+
+For my purposes, I just add these these lines in any script I am writing:
+```
+#!/bin/bash
+
+set -euo pipefail
+```
