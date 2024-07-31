@@ -14,3 +14,7 @@ My List of Most useful sites:
 ## LLM Leaderboards
 - [chat.lmsys.org](https://chat.lmsys.org/)
 - [Aider LLM Leaderboards | aider](https://aider.chat/docs/leaderboards/)
+
+## Python Talks
+- [Vincent Warmerdam: Calmcode, Explosion, Data Science | Learning From Machine Learning #2 - YouTube](https://www.youtube.com/watch?v=yvgxRzqx1Jg)
+- [James Powell: So you want to be a Python expert? | PyData Seattle 2017](https://www.youtube.com/watch?v=cKPlPJyQrt4)
