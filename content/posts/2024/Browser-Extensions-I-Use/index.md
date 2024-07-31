@@ -33,6 +33,12 @@ As you know, Chrome eats RAM. A lot of it.
 
 This helps to suspend the tabs which are not used for sometime in order to eat less RAM. 
 
+## [Google Keep Chrome Extension - Chrome Web Store](https://chromewebstore.google.com/detail/lpcaedmchfhocbbapmcbpinfpgnhiddi)
+
+I think we all need some application to store content to be consumed later. It can be youtube videos or blog posts or whatever. Some people like to use applications like `instapaper` or `omnivore` but I just want to keep things simple as I already use google keep a lot. 
+
+More importantly, I like to keep my life as simple and minimalistic as possible. 
+
 ## [Dastyar Personal Assistant in your newtab](https://chromewebstore.google.com/detail/dastyar-personal-assistan/ebilacdhmebcihmbjgibcbeaihbecapj?hl=fa)
 This extension is for Iranian people like me who like to see their local calendar and date and time everytime they open a new tab in browser. 
 
