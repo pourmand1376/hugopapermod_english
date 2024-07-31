@@ -69,6 +69,10 @@ This one is pretty interesting too. It offers unlimited free paraphrasing, so I 
 - [ChatGPT](https://chat.openai.com/chat)
 - [Claude](https://claude.ai/)
 - [Writesonic - Best AI Writer, Copywriting & Paraphrasing Tool](https://writesonic.com/)
+
+## LLM Leaderboards
+- [chat.lmsys.org](https://chat.lmsys.org/)
+- [Aider LLM Leaderboards | aider](https://aider.chat/docs/leaderboards/)
 ## Other Tools
 
 [TIME.IS](https://time.is/) 
@@ -166,3 +170,4 @@ Reviewing current state-of-the-art in machine learning (SOTA)
 [Trend articles every day](https://mavenlin.github.io/ai_research_trends/)
 
 [AI and Data Scientist Roadmap](https://roadmap.sh/ai-data-scientist)
+
