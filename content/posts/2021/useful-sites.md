@@ -70,9 +70,7 @@ This one is pretty interesting too. It offers unlimited free paraphrasing, so I 
 - [Claude](https://claude.ai/)
 - [Writesonic - Best AI Writer, Copywriting & Paraphrasing Tool](https://writesonic.com/)
 
-## LLM Leaderboards
-- [chat.lmsys.org](https://chat.lmsys.org/)
-- [Aider LLM Leaderboards | aider](https://aider.chat/docs/leaderboards/)
+
 ## Other Tools
 
 [TIME.IS](https://time.is/) 
