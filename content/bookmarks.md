@@ -8,6 +8,9 @@ Here are my bookmarks. Primarily, this is my more technical bookmarks as I have 
 My List of Most useful sites: 
 - [Most Useful Sites and tools (All Online) | Amir Pourmand](https://amirpourmand.ir/posts/2021/useful-sites/)
 
+## Good Websites:
+- [Choose an open source license | Choose a License](https://choosealicense.com/)
+
 ## Tools
 - [Explainshell.com - match command-line arguments to their help text](https://explainshell.com/)
 
