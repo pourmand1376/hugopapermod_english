@@ -22,6 +22,11 @@ My List of Most useful sites:
 - [Vincent Warmerdam: Calmcode, Explosion, Data Science | Learning From Machine Learning #2 - YouTube](https://www.youtube.com/watch?v=yvgxRzqx1Jg)
 - [James Powell: So you want to be a Python expert? | PyData Seattle 2017](https://www.youtube.com/watch?v=cKPlPJyQrt4)
 
+
+## Documentary Youtube Channels
+- [Documentary Central](https://www.youtube.com/@DocoCentral)
+- [ENDEVR](https://www.youtube.com/@ENDEVRDocs/videos)
+- 
 ## Exercise Youtube Channels
 - [Sydney Cummings Houdyshell](https://youtube.com/@sydneycummingshoudyshell)
 - [The Body Project](https://www.youtube.com/@BodyProjectchallenge)
