@@ -33,7 +33,7 @@ My List of Most useful sites:
 - 
 
 
-Questions I have: Cholestrol? LHD? HDL? Fiber? Fat Effect? Sugar Effect? OMAD Diet? Insulin Resistance? 
+Questions I have: Cholestrol? LHD? HDL? Fiber? Fat Effect? Sugar Effect? OMAD Diet? Insulin Resistance? Trans Fat? 
 ## Exercise Youtube Channels
 - [Sydney Cummings Houdyshell](https://youtube.com/@sydneycummingshoudyshell)
 - [The Body Project](https://www.youtube.com/@BodyProjectchallenge)
