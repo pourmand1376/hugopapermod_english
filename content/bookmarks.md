@@ -26,7 +26,14 @@ My List of Most useful sites:
 ## Documentary Youtube Channels
 - [Documentary Central](https://www.youtube.com/@DocoCentral)
 - [ENDEVR](https://www.youtube.com/@ENDEVRDocs/videos)
+
+## Health Channels
+- [Nerdtritionists](https://www.youtube.com/@Nerdtritionists)
+- [Nutrition Made Simple!](https://www.youtube.com/@NutritionMadeSimple)
 - 
+
+
+Questions I have: Cholestrol? LHD? HDL? Fiber? Fat Effect? Sugar Effect? OMAD Diet? Insulin Resistance? 
 ## Exercise Youtube Channels
 - [Sydney Cummings Houdyshell](https://youtube.com/@sydneycummingshoudyshell)
 - [The Body Project](https://www.youtube.com/@BodyProjectchallenge)
