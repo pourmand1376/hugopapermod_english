@@ -138,6 +138,19 @@ sudo apt install openssh-server
 ```
 This way you can access your laptop (or server) via SSH easily. 
 
+### Manage Backup
+I frequently use this one to create and restore backups from my folders. 
+
+Create Backup (don't forget sudo if necessary):
+```
+tar -cvf volumes-$(date +%s).tgz volumes
+```
+
+Restore Backup: 
+```
+tar xf volumes-1721810467.tgz
+```
+
 #### Find Documentation for a command
 Let's say you want to read documentation for a command like `find`. You might do `man find` or `find --help` but none of them are easy to read. We can do better.
 
