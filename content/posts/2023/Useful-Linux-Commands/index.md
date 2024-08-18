@@ -143,12 +143,12 @@ I frequently use this one to create and restore backups from my folders.
 
 Create Backup (don't forget sudo if necessary):
 ```
-tar -cvf volumes-$(date +%s).tgz volumes
+tar -czvf volumes-$(date +%Y.%m.%d.%H.%M.%S).tar.gz volumes
 ```
 
 Restore Backup: 
 ```
-tar xf volumes-1721810467.tgz
+tar -xzvf volumes-2024.08.18.15.05.57.tar.gz
 ```
 
 #### Find Documentation for a command
