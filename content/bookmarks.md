@@ -32,6 +32,7 @@ My List of Most useful sites:
 - [Nutrition Made Simple!](https://www.youtube.com/@NutritionMadeSimple)
 - [Dr. Sten Ekberg](https://www.youtube.com/@drekberg)
 - [Dr. Layne Norton](https://www.youtube.com/@biolayne1)
+- [Autumn Bates](https://www.youtube.com/@AutumnBates)
 
 
 Questions I have: Cholestrol? LHD? HDL? Fiber? Fat Effect? Sugar Effect? OMAD Diet? Insulin Resistance? Trans Fat? Refined Vegetable Oils? Inflammatory? 
