@@ -38,4 +38,4 @@ Questions I have: Cholestrol? LHD? HDL? Fiber? Fat Effect? Sugar Effect? OMAD D
 ## Exercise Youtube Channels
 - [Sydney Cummings Houdyshell](https://youtube.com/@sydneycummingshoudyshell)
 - [The Body Project](https://www.youtube.com/@BodyProjectchallenge)
-- 
+- [Kaleigh Cohen Strength](https://www.youtube.com/@KaleighStrength)
