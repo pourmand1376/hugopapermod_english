@@ -35,6 +35,7 @@ My List of Most useful sites:
 - [Dr. Layne Norton](https://www.youtube.com/@biolayne1)
 - [Autumn Bates](https://www.youtube.com/@AutumnBates)
 - [ZOE](https://youtube.com/@joinzoe)
+- [PictureFit](https://www.youtube.com/@PictureFit)
 
 
 Questions I have: Cholestrol? LHD? HDL? Fiber? Fat Effect? Sugar Effect? OMAD Diet? Insulin Resistance? Trans Fat? Refined Vegetable Oils? Inflammatory? 
