@@ -47,3 +47,10 @@ Questions I have: Cholestrol? LHD? HDL? Fiber? Fat Effect? Sugar Effect? OMAD D
 - [Sydney Cummings Houdyshell](https://youtube.com/@sydneycummingshoudyshell)
 - [The Body Project](https://www.youtube.com/@BodyProjectchallenge)
 - [Kaleigh Cohen Strength](https://www.youtube.com/@KaleighStrength)
+- [DANIELPT FITNESS](https://www.youtube.com/@DANIELPTFITNESS)
+- [HASfit](https://www.youtube.com/@HASfit)
+- [Heather Robertson](https://www.youtube.com/@Heatherrobertsoncom)
+- [MadFit](https://www.youtube.com/@MadFit)
+- [FitnessBlender](https://www.youtube.com/@fitnessblender)
+- [Caroline Girvan](https://www.youtube.com/c/carolinegirvan)
+
