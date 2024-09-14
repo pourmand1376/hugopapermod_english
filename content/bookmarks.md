@@ -56,4 +56,4 @@ Questions I have: Cholestrol? LHD? HDL? Fiber? Fat Effect? Sugar Effect? OMAD D
 
 Calisthenics
 - [Adam Frater](https://www.youtube.com/@adam_frater)
-
+- [Minus The Gym](https://www.youtube.com/@MinusTheGym)
