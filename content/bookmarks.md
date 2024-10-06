@@ -40,7 +40,7 @@ My List of Most useful sites:
 - [Nick Norwits](https://www.youtube.com/@nicknorwitzPhD)
 - [Paul Saladino MD](https://www.youtube.com/@Paulsaladinomd/videos)
 - [Glucose Revolution](https://www.youtube.com/@GlucoseRevolution)
-
+- [What I've Learned - YouTube](https://www.youtube.com/@WhatIveLearned)
 
 
 Questions I have: Cholestrol? LHD? HDL? Fiber? Fat Effect? Sugar Effect? OMAD Diet? Insulin Resistance? Trans Fat? Refined Vegetable Oils? Inflammatory? 
