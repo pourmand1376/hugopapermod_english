@@ -84,6 +84,10 @@ Youtube Video Tutorial Part 2:
 
 {{<youtube id="oWiFPwLD8Uc" class="embed-v" >}}
 
+### Old Version
+I keep the old version of the blog so that you can see how I would use the system previously. 
+
+But fear not. Just use the script above and It would handle everything written down here automatically. 
 
 ### ExtraOption for windows users
 
@@ -115,14 +119,6 @@ First, You should add these lines to `.gitignore`:
 ```
 
 This tells git to ignore certain files that are likely to cause conflicts, like recently opened files.
-
-Next, you'll add the `.gitattributes` file and tell git how to handle merging for specific file types. For example, you can tell git to treat markdown files as regular text files and merge them accordingly:
-
-```
-*.md merge=union
-```
-
-This instructs git to merge markdown files as if they were plain text. This way, you won't ever get a git conflict in markdown files even if you change the same line at the same time (the strategy in these situtations is to show both lines).
 
 In case you have previously committed `workspace.json` and other mentioned gitignore files into git, you should remove them using the following commands (If you are not sure, it wouldn't hurt to run these commands):
 
