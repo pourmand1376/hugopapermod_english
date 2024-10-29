@@ -101,7 +101,7 @@ This should normally work and do the job for you. I would say yes on everything 
 ![](install-32-bit.webp)
 ![](rebuild-initramfs.webp)
 ![](rebuilding.webp)
-Make sure to hit yes on this screen (default is no):
+Make sure to hit yes on this screen (default is no) - Otherwise, you won't have your GPU driver ready-to-use after restarting your linux machine. 
 ![](nvidia-x-driver.webp)
 ![](installed-nvidia-x-driver.webp)
 
