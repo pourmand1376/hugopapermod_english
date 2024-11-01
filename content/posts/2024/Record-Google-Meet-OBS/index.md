@@ -8,6 +8,26 @@ tags:
 ---
 Some days ago, I wanted to record a Google Meet session as a podcast and I didn't want to pay for just recording the call, neither to google nor third party services. 
 
+## Update 2024-11-02
+Previously, I used the browser method to record the screen since I heard my voice twice in the recording. This way, the issue is fixed. 
+
+But, There are other solutions! The better solution would be to just record the screen normally. These would be the sources.  One would capture your audio, and the other would capture your screen and their audio. 
+
+![](Set_Sources_new_method.webp#center)
+
+But Note that you should use separate microphone and speaker which Do NOT hear each other. Otherwise, you would have hear voices twice. This can be your audio mixer settings. 
+
+![](Audio_Mixer_settings.webp#center)
+![](audio_mixer_advanced.webp#center)
+I would also like to record other tracks so that I would have separate channels for each person. This is why I choose the first track to be combined, but use the second and third track to have separate voices. 
+
+> Note That if you want to record audio tracks separately, you should also check the second and third track in Settings -> Output -> Recording -> Audio Tracks. 
+
+Also, Do not forget to resize the Screen Capture to resize the canvas like this:
+![](resize_output_screen_capture.webp#center)
+
+## Previous Post Content 
+
 Here's how you can do it step by step. 
 
 First, install OBS Studio (which is available on all OSes) and open it up. 
