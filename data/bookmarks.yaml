@@ -4,116 +4,107 @@ groups:
     bookmarks:
       - title: "Farnam Street Blog"
         url: "https://fs.blog/"
-        icon: "fas fa-link"
+
       - title: "Paul Graham Essays"
         url: "http://www.paulgraham.com/"
-        icon: "fas fa-link"
+
       - title: "Personal MBA"
         url: "https://personalmba.com/"
-        icon: "fas fa-link"
+
       - title: "Marginal Revolution"
         url: "https://marginalrevolution.com/"
-        icon: "fas fa-link"
 
   - name: "YouTube Channels"
     icon: "fab fa-youtube"
     bookmarks:
       - title: "TechWorld with Nana"
         url: "https://www.youtube.com/@TechWorldwithNana"
-        icon: "fas fa-link"
+
       - title: "DevOps Toolkit"
         url: "https://youtube.com/@DevOpsToolkit"
-        icon: "fas fa-link"
+
       - title: "Branch Education"
         url: "https://www.youtube.com/@BranchEducation"
-        icon: "fas fa-link"
+
       - title: "Veritasium"
         url: "https://www.youtube.com/@veritasium"
-        icon: "fas fa-link"
 
   - name: "Dictionaries"
     icon: "fas fa-book"
     bookmarks:
       - title: "Etymology Online"
         url: "https://www.etymonline.com/"
-        icon: "fas fa-link"
+
       - title: "Merriam Webster"
         url: "https://www.merriam-webster.com/"
-        icon: "fas fa-link"
+
       - title: "Cambridge Dictionary"
         url: "https://dictionary.cambridge.org/"
-        icon: "fas fa-link"
+
       - title: "Abadis Translator"
         url: "https://abadis.ir/translator/fa-en/"
-        icon: "fas fa-link"
 
   - name: "Entertainment"
     icon: "fas fa-film"
     bookmarks:
       - title: "Watch Series HD"
         url: "https://watchseries.mx/home"
-        icon: "fas fa-link"
+
       - title: "SoundCloud"
         url: "https://soundcloud.com/"
-        icon: "fas fa-link"
+
       - title: "A Soft Murmur"
         url: "https://asoftmurmur.com/"
-        icon: "fas fa-link"
+
       - title: "Noisli"
         url: "https://www.noisli.com/"
-        icon: "fas fa-link"
 
   - name: "Math Tools"
     icon: "fas fa-calculator"
     bookmarks:
       - title: "Wolfram Alpha"
         url: "https://www.wolframalpha.com/"
-        icon: "fas fa-link"
+
       - title: "Symbolab"
         url: "https://www.symbolab.com/"
-        icon: "fas fa-link"
+
       - title: "GeoGebra"
         url: "https://www.geogebra.org/"
-        icon: "fas fa-link"
+
       - title: "Mathcha"
         url: "https://www.mathcha.io/editor"
-        icon: "fas fa-link"
 
   - name: "Monitoring"
     icon: "fas fa-chart-line"
     bookmarks:
       - title: "Google Analytics"
         url: "https://analytics.google.com/"
-        icon: "fas fa-link"
+
       - title: "Google Search Console"
         url: "https://search.google.com/search-console/"
-        icon: "fas fa-link"
+
       - title: "Iran Monitoring"
         url: "http://pourmand.netnegar.io/"
-        icon: "fas fa-link"
 
   - name: "AI & ML Resources"
     icon: "fas fa-robot"
     bookmarks:
       - title: "chat.lmsys.org"
         url: "https://chat.lmsys.org/"
-        icon: "fas fa-brain"
+
       - title: "Aider LLM Leaderboards"
         url: "https://aider.chat/docs/leaderboards/"
-        icon: "fas fa-chart-line"
 
   - name: "Learning & Education"
     icon: "fas fa-graduation-cap"
     bookmarks:
       - title: "Python Talks"
         url: "https://www.youtube.com/@pythontalks"
-        icon: "fab fa-python"
+
       - title: "Branch Education"
         url: "https://www.youtube.com/@BranchEducation"
-        icon: "fas fa-chalkboard-teacher"
       - title: "Veritasium"
         url: "https://www.youtube.com/@veritasium"
-        icon: "fas fa-atom"
 
   - name: "Writing & Language"
     icon: "fas fa-pen"
@@ -145,112 +136,90 @@ groups:
     bookmarks:
       - title: "Wolfram Alpha"
         url: "https://www.wolframalpha.com/"
-        icon: "fas fa-calculator"
       - title: "Symbolab"
         url: "https://www.symbolab.com/"
-        icon: "fas fa-superscript"
       - title: "GeoGebra"
         url: "https://www.geogebra.org/"
-        icon: "fas fa-draw-polygon"
       - title: "Mathcha Editor"
         url: "https://www.mathcha.io/editor"
-        icon: "fas fa-pencil-alt"
       - title: "Derivative Calculator"
         url: "https://www.derivative-calculator.net/"
-        icon: "fas fa-function"
       - title: "Integral Calculator"
         url: "https://www.integral-calculator.com/"
-        icon: "fas fa-integral"
 
   - name: "Media & Entertainment"
     icon: "fas fa-film"
     bookmarks:
       - title: "WatchSeries HD"
         url: "https://watchseries.mx/home"
-        icon: "fas fa-tv"
+
       - title: "SoundCloud"
         url: "https://soundcloud.com/"
-        icon: "fab fa-soundcloud"
       - title: "A Soft Murmur"
         url: "https://asoftmurmur.com/"
-        icon: "fas fa-volume-up"
       - title: "Noisli"
         url: "https://www.noisli.com/"
-        icon: "fas fa-music"
 
   - name: "Design & Visual"
     icon: "fas fa-palette"
     bookmarks:
       - title: "Excalidraw"
         url: "https://excalidraw.com/"
-        icon: "fas fa-pencil-ruler"
       - title: "Pixabay"
         url: "https://pixabay.com"
-        icon: "fas fa-images"
 
   - name: "Productivity"
     icon: "fas fa-tasks"
     bookmarks:
       - title: "Google Calendar"
         url: "https://calendar.google.com/"
-        icon: "far fa-calendar-alt"
       - title: "Overleaf"
         url: "https://www.overleaf.com/"
-        icon: "fas fa-file-pdf"
 
   - name: "Research Tools"
     icon: "fas fa-microscope"
     bookmarks:
       - title: "Wayback Machine"
         url: "https://archive.org/"
-        icon: "fas fa-archive"
       - title: "Remove Paywalls"
         url: "https://archive.ph/"
-        icon: "fas fa-unlock"
 
   - name: "Web Tools"
     icon: "fas fa-globe"
     bookmarks:
       - title: "Google Analytics"
         url: "https://analytics.google.com/"
-        icon: "fas fa-chart-bar"
       - title: "Google Search Console"
         url: "https://search.google.com/search-console/"
-        icon: "fas fa-search"
       - title: "Iran Monitoring"
         url: "http://pourmand.netnegar.io/"
-        icon: "fas fa-tachometer-alt"
 
   - name: "Most Useful Sites"
     icon: "fas fa-star"
     bookmarks:
       - title: "Most Useful Sites and tools (All Online) | Amir Pourmand"
         url: "https://amirpourmand.ir/posts/2021/useful-sites/"
-        icon: "fas fa-link"
 
   - name: "Good Websites"
     icon: "fas fa-globe"
     bookmarks:
       - title: "Choose an open source license | Choose a License"
         url: "https://choosealicense.com/"
-        icon: "fas fa-link"
 
   - name: "Tools"
     icon: "fas fa-tools"
     bookmarks:
       - title: "Explainshell.com - match command-line arguments to their help text"
         url: "https://explainshell.com/"
-        icon: "fas fa-link"
 
   - name: "LLM Leaderboards"
     icon: "fas fa-chart-line"
     bookmarks:
       - title: "chat.lmsys.org"
         url: "https://chat.lmsys.org/"
-        icon: "fas fa-link"
+
       - title: "Aider LLM Leaderboards | aider"
         url: "https://aider.chat/docs/leaderboards/"
-        icon: "fas fa-link"
 
   - name: "Python Talks"
     icon: "fab fa-python"
@@ -267,42 +236,37 @@ groups:
     bookmarks:
       - title: "Documentary Central"
         url: "https://www.youtube.com/@DocoCentral"
-        icon: "fa-link"
+
       - title: "ENDEVR"
         url: "https://www.youtube.com/@ENDEVRDocs/videos"
-        icon: "fa-link"
 
   - name: "Research Tools"
     icon: "fas fa-microscope"
     bookmarks:
       - title: "Connected Papers - Visual Literature Search"
         url: "http://connectedpapers.com"
-        icon: "fas fa-link"
+
       - title: "Research Rabbit - Paper Discovery"
         url: "https://researchrabbitapp.com"
-        icon: "fas fa-link"
+
       - title: "Paper Digest - Research Summary"
         url: "https://www.paper-digest.com"
-        icon: "fas fa-link"
+
       - title: "MathPix - Math OCR"
         url: "https://mathpix.com"
-        icon: "fas fa-link"
+
       - title: "Mathcha - Online Math Editor"
         url: "https://www.mathcha.io"
-        icon: "fas fa-link"
 
   - name: "Diagram & Design"
     icon: "fas fa-pencil-ruler"
     bookmarks:
       - title: "Mermaid Live Editor"
         url: "https://mermaid.live"
-        icon: "fa-link"
       - title: "Figma"
         url: "https://figma.com"
-        icon: "fa-link"
       - title: "Excalidraw"
         url: "https://excalidraw.com"
-        icon: "fa-link"
 
   - name: "Writing Tools"
     icon: "fa-pen"
@@ -322,78 +286,58 @@ groups:
     bookmarks:
       - title: "Git Command Explorer"
         url: "https://gitexplorer.com"
-        icon: "fas fa-code-branch"
       - title: "Postman"
         url: "https://www.postman.com"
-        icon: "fas fa-network-wired"
       - title: "HTTPie"
         url: "https://httpie.io/app"
-        icon: "fas fa-exchange-alt"
       - titple: "JSON Crack"
         url: "https://jsoncrack.com"
-        icon: "fas fa-code"
       - title: "Explainshell"
         url: "https://explainshell.com/"
-        icon: "fas fa-terminal"
       - title: "Choose a License"
         url: "https://choosealicense.com/"
-        icon: "fas fa-file-contract"
 
   - name: "Image Resources"
     icon: "fas fa-images"
     bookmarks:
       - title: "Pixabay"
         url: "https://pixabay.com"
-        icon: "fa-link"
       - title: "Freepik"
         url: "https://www.freepik.com"
-        icon: "fa-link"
       - title: "Unsplash"
         url: "https://unsplash.com"
-        icon: "fa-link"
 
   - name: "Health Channels"
     icon: "fa-heartbeat"
     bookmarks:
       - title: "Andew Huberman"
         url: "https://www.youtube.com/@hubermanlab/"
-        icon: "fa-link"
       - title: "Nerdtritionists"
         url: "https://www.youtube.com/@Nerdtritionists"
-        icon: "fa-link"
       - title: "Dr. Ken Berry"
         url: "https://www.youtube.com/@KenDBerryMD"
-        icon: "fa-link"
       - title: "Nutrition Made Simple!"
         url: "https://www.youtube.com/@NutritionMadeSimple"
-        icon: "fa-link"
       - title: "Dr. Sten Ekberg"
         url: "https://www.youtube.com/@drekberg"
-        icon: "fa-link"
       - title: "Dr. Layne Norton"
         url: "https://www.youtube.com/@biolayne1"
-        icon: "fa-link"
       - title: "Autumn Bates"
         url: "https://www.youtube.com/@AutumnBates"
-        icon: "fa-link"
       - title: "ZOE"
         url: "https://youtube.com/@joinzoe"
-        icon: "fa-link"
       - title: "PictureFit"
         url: "https://www.youtube.com/@PictureFit"
-        icon: "fa-link"
       - title: "Nick Norwits"
         url: "https://www.youtube.com/@nicknorwitzPhD"
-        icon: "fa-link"
       - title: "Paul Saladino MD"
         url: "https://www.youtube.com/@Paulsaladinomd/videos"
-        icon: "fas fa-link"
+
       - title: "Glucose Revolution"
         url: "https://www.youtube.com/@GlucoseRevolution"
-        icon: "fas fa-link"
+
       - title: "What I've Learned - YouTube"
         url: "https://www.youtube.com/@WhatIveLearned"
-        icon: "fas fa-link"
+
       - title: "Nutritionix - Largest Verified Nutrition Database"
         url: "https://www.nutritionix.com/"
-        icon: "fas fa-link"
