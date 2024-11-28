@@ -10,34 +10,114 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         .bookmark-group {
-            margin-bottom: 2rem;
-            padding: 1.5rem;
-            border-radius: 8px;
-            background-color: #f8f9fa;
-            transition: transform 0.2s;
+            background: #ebecf0;
+            border-radius: 3px;
+            padding: 8px;
+            height: fit-content;
+            max-height: calc(100vh - 120px);
+            overflow-y: auto;
         }
         .bookmark-group:hover {
             transform: translateY(-5px);
             box-shadow: 0 4px 15px rgba(0,0,0,0.1);
         }
         .group-title {
-            color: #2c3e50;
-            border-bottom: 2px solid #e9ecef;
-            padding-bottom: 0.5rem;
-            margin-bottom: 1.5rem;
+            font-size: 14px;
+            font-weight: 600;
+            color: #172b4d;
+            padding: 8px;
+            margin-bottom: 12px;
         }
         .bookmark-card {
-            transition: all 0.3s;
+            background: white;
+            border-radius: 3px;
+            box-shadow: 0 1px 0 rgba(9,30,66,.25);
+            margin-bottom: 8px;
+            padding: 8px;
+            transition: transform 0.2s ease;
             height: 100%;
         }
         .bookmark-card:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            transform: translateY(-2px);
+            background: #f4f5f7;
         }
         .bookmark-icon {
-            font-size: 1.2rem;
-            margin-right: 0.5rem;
-            color: #6c757d;
+            color: #5e6c84;
+            margin-right: 6px;
+            font-size: 12px;
+        }
+        .card-title {
+            font-size: 14px;
+            line-height: 1.4;
+            margin: 0;
+            word-break: break-word;
+        }
+        .bookmarks-container {
+            display: grid;
+            grid-template-columns: repeat(6, 280px);
+            gap: 12px;
+            padding: 16px;
+            overflow-x: auto;
+            min-height: calc(100vh - 100px);
+        }
+        /* Scrollbar styling */
+        .bookmark-group::-webkit-scrollbar {
+            width: 8px;
+        }
+        .bookmark-group::-webkit-scrollbar-track {
+            background: #ebecf0;
+        }
+        .bookmark-group::-webkit-scrollbar-thumb {
+            background: #c1c7d0;
+            border-radius: 4px;
+        }
+        .bookmark-cards-container {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        .bookmark-card {
+            background: white;
+            border-radius: 3px;
+            box-shadow: 0 1px 0 rgba(9,30,66,.25);
+            min-width: 200px;
+            flex: 0 0 auto;
+            scroll-snap-align: start;
+            transition: transform 0.2s ease;
+            width: 100%;
+        }
+        .bookmark-card:hover {
+            transform: translateY(-2px);
+            background: #f4f5f7;
+        }
+        .card-body {
+            padding: 8px;
+        }
+        /* Horizontal scrollbar styling */
+        .bookmark-cards-container::-webkit-scrollbar {
+            height: 8px;
+        }
+        .bookmark-cards-container::-webkit-scrollbar-track {
+            background: #ebecf0;
+        }
+        .bookmark-cards-container::-webkit-scrollbar-thumb {
+            background: #c1c7d0;
+            border-radius: 4px;
+        }
+        @media (max-width: 1600px) {
+            .bookmarks-container {
+                grid-template-columns: repeat(5, 280px);
+            }
+        }
+        @media (max-width: 1400px) {
+            .bookmarks-container {
+                grid-template-columns: repeat(4, 280px);
+            }
+        }
+        @media (max-width: 1100px) {
+            .bookmarks-container {
+                grid-template-columns: repeat(3, 280px);
+            }
         }
     </style>
 </head>
@@ -48,26 +128,23 @@
         <div class="bookmarks-container">
             {{ range $group := .Site.Data.bookmarks.groups }}
             <div class="bookmark-group">
-                <h2 class="group-title">
+                <h3 class="group-title">
                     <i class="{{ $group.icon }} me-2"></i>
                     {{ $group.name }}
-                </h2>
-                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                </h3>
+                <div class="bookmark-cards-container">
                     {{ range $bookmark := $group.bookmarks }}
-                    <div class="col">
-                        <!-- Updated card section with dynamic bookmark icon -->
-                        <div class="card bookmark-card h-100">
-                            <div class="card-body">
-                                <a href="{{ $bookmark.url }}" 
-                                   class="text-decoration-none text-dark"
-                                   target="_blank" 
-                                   rel="noopener">
-                                    <h5 class="card-title">
-                                        <i class="{{ if $bookmark.icon }}{{ $bookmark.icon }}{{ else }}fas fa-bookmark{{ end }} bookmark-icon"></i>
-                                        {{ $bookmark.title }}
-                                    </h5>
-                                </a>
-                            </div>
+                    <div class="bookmark-card">
+                        <div class="card-body">
+                            <a href="{{ $bookmark.url }}" 
+                               class="text-decoration-none text-dark"
+                               target="_blank" 
+                               rel="noopener">
+                                <h5 class="card-title">
+                                    <i class="{{ $bookmark.icon }} bookmark-icon"></i>
+                                    {{ $bookmark.title }}
+                                </h5>
+                            </a>
                         </div>
                     </div>
                     {{ end }}
