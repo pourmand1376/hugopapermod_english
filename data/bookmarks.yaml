@@ -83,8 +83,8 @@ groups:
       - title: "Google Search Console"
         url: "https://search.google.com/search-console/"
 
-      - title: "Iran Monitoring"
-        url: "http://pourmand.netnegar.io/"
+      - title: "Websites Monitoring"
+        url: "https://pourmand.cronitorstatus.com"
 
   - name: "AI & ML Resources"
     icon: "fas fa-robot"
