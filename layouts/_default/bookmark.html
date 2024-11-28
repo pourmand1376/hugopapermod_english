@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" charset="utf-8">
+  <head> </head>
+  <body>
+    {{ .Content }}
+    <!-- Add Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- Add custom CSS -->
+    <link rel="stylesheet" href="/css/bookmarks.css" />
+
+    <div class="bookmarks-container">
+      {{ $bookmarks := .Site.Data.bookmarks.groups }} {{ range $group :=
+      $bookmarks }}
+      <div class="bookmark-group">
+        <h2 class="group-title">
+          <i class="{{ $group.icon }}"></i>
+          {{ $group.name }}
+        </h2>
+        <ul class="bookmark-list">
+          {{ range $bookmark := $group.bookmarks }}
+          <li class="bookmark-item">
+            <a
+              href="{{ $bookmark.url }}"
+              class="bookmark-link"
+              target="_blank"
+              rel="noopener"
+            >
+              <span class="bookmark-icon">
+                <i class="{{ $bookmark.icon }}"></i>
+              </span>
+              <span class="bookmark-title">{{ $bookmark.title }}</span>
+            </a>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }}
+    </div>
+  </body>
+</html>
