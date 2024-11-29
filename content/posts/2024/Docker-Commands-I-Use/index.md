@@ -121,10 +121,10 @@ Just in the case of service name, see inside of your `docker-compose` via `cat d
 
 ## Conclusion
 These are the commands which I use in 99% of the time and It basically solves all my needs. Of course, I could use search if I want to handle more complicated scenarios, but this ones should be enough to get you up and running. 
-
+ 
 If you are looking to learn docker I highly recommend these tutorials:
 - [Docker Tutorial for Beginners - YouTube](https://www.youtube.com/watch?v=pTFZFxd4hOI)
-- [Complete Docker Course - From BEGINNER to PRO! (Learn Containers)](https://www.youtube.com/@DevOpsDirective)
+- [Complete Docker Course - From BEGINNER to PRO! (Learn Containers)](https://www.youtube.com/watch?v=RqTEHSBrYFw)
 
 Here is also a great list of docker resource to learn from. 
 - [Nane Kratzke | Valuable Docker Links](http://nane.kratzke.pages.mylab.th-luebeck.de/about/blog/2014/08/24/valuable-docker-links/)
