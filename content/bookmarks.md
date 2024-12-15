@@ -5,6 +5,11 @@ ShowToc: false
 ---
 Here are my bookmarks. Primarily, this is my more technical bookmarks as I have my non-technical bookmarks [here](https://aprd.ir/bookmarks/).
 
+### Web Services
+- [Google Console Cloud](https://console.cloud.google.com/)
+- [Microsoft Azure](https://portal.azure.com/#home)
+- [AWS Console](http://console.aws.amazon.com)
+
 My List of Most useful sites: 
 - [Most Useful Sites and tools (All Online) | Amir Pourmand](https://amirpourmand.ir/posts/2021/useful-sites/)
 
