@@ -67,6 +67,8 @@ Sometimes, docker uses a lot of disk space. You can analyze it to see exact info
 docker system df
 ```
 
+I would add `-v` to above command to see more information, things like: Size of Each Image, size of each container, size of each volume and cache size. 
+
 To make some space you can use these commands([How to clear Docker cache and free up space on your system](https://depot.dev/blog/docker-clear-cache)):
 
 ```bash
