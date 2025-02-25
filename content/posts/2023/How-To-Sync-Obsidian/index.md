@@ -11,6 +11,7 @@ cover:
 
 ![](obsidian.webp)
 
+
 # Introduction
 
 I've tried many tools and tutorials to sync my obsidian notes between android and windows. They all have the same problems:
@@ -18,6 +19,15 @@ I've tried many tools and tutorials to sync my obsidian notes between android an
 1. Some need subscription service (Obsidian Sync) which I'm not willing to pay
 2. Some can't handle editing the same file (Sync via GoogleDrive, Dropbox and ...)
 3. Others need complicated setup and maintenance.
+
+# Update 2025: A Better Solution
+After a long time using git to sync, I found this plugin: Remotely Save.
+
+Now, I can happily sync all my notes much much simpler. Please, use following link to see how to set it up:
+
+- [How to Sync Obsidian Across All Your Devices (Including Free Methods) • Stephan Miller](https://www.stephanmiller.com/sync-obsidian-vault-across-devices/#remotely-save)
+
+The problem with my solution was that git conflicts happen all the time. And I used multiple ways to handle them. But, None of them worked completely automatic and sometimes showed odd behavior. It is also lot more complicated to setup than remotely save plugin. 
 
 # My Solution
 
