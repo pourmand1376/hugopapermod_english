@@ -51,4 +51,8 @@ This one passes some paywall sites.
 ## [RSS Reader Extension (by Inoreader)](https://chromewebstore.google.com/detail/rss-reader-extension-by-i/kfimphpokifbjgmjflanmfeppcjimgah)
 
 
+## [Pie Adblock: Block ads, get paid.](https://pie.org/)
 
+## [Tabrr New Tab - Dashboard with Sync](https://tabrr.com/)
+
+## [Instapaper](https://www.instapaper.com/)
