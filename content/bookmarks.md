@@ -5,6 +5,7 @@ ShowToc: false
 ---
 Here are my bookmarks. Primarily, this is my more technical bookmarks as I have my non-technical bookmarks [here](https://aprd.ir/bookmarks/).
 
+I have moved all my bookmarks into RainDrop! The service is awesome and I really like it. I may provide public links here as well in the future. 
 ### Web Services
 - [Google Console Cloud](https://console.cloud.google.com/)
 - [Microsoft Azure](https://portal.azure.com/#home)
