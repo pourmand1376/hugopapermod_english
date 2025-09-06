@@ -27,6 +27,7 @@ Use Obsidian Git plugin on mac and windows. And Git Sync on Android. You'll be f
 
 [GitHub - Vinzent03/obsidian-git: Integrate Git version control with automatic commit-and-sync and other advanced features in Obsidian.md](https://github.com/Vinzent03/obsidian-git)
 
+Remotely Save is also good. But it made me authenticate once a week (which is frustrating). Also sometimes, It just decides to sync all files fresh! I don't have time for that! 
 ## Update Jan 2025: A Better Solution
 After a long time using git to sync, I found this plugin: Remotely Save.
 
