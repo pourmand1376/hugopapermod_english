@@ -25,6 +25,8 @@ Just use Git Sync on android. It will make your life easier. I've been using it 
 
 Use Obsidian Git plugin on mac and windows. And Git Sync on Android. You'll be fine. 
 
+[GitHub - Vinzent03/obsidian-git: Integrate Git version control with automatic commit-and-sync and other advanced features in Obsidian.md](https://github.com/Vinzent03/obsidian-git)
+
 ## Update Jan 2025: A Better Solution
 After a long time using git to sync, I found this plugin: Remotely Save.
 
