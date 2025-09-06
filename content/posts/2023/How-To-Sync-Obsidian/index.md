@@ -20,7 +20,12 @@ I've tried many tools and tutorials to sync my obsidian notes between android an
 2. Some can't handle editing the same file (Sync via GoogleDrive, Dropbox and ...)
 3. Others need complicated setup and maintenance.
 
-# Update 2025: A Better Solution
+## Update Sep 2025: A better one
+Just use Git Sync on android. It will make your life easier. I've been using it a month and since I had no problem. 
+
+Use Obsidian Git plugin on mac and windows. And Git Sync on Android. You'll be fine. 
+
+## Update Jan 2025: A Better Solution
 After a long time using git to sync, I found this plugin: Remotely Save.
 
 Now, I can happily sync all my notes much much simpler. Please, use following link to see how to set it up:
