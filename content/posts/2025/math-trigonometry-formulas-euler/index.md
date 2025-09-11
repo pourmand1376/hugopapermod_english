@@ -12,6 +12,7 @@ Fortunately, As I will show here, most trigonometry formulas can be derived via 
 
 This way, any time we are locked and can't remember what the formula was, we can simply derive it. 
 
+I have used some LLM to generate proofs. So, this is the only post ever I've used LLMs. But I had to tell.
 ### Euler's Formula
 $$e^{ix} = \cos(x) + i\sin(x)$$
 ### Expressing Sine and Cosine
