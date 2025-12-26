@@ -11,7 +11,6 @@ Here are some most important chrome extensions I use almost on a daily basis. Al
 [Bitwarden](https://bitwarden.com/) is the first thing I install on every browser. It saves all my passwords on all my devices. I rather not depend on Google to save my passwords since It limits my options to just use same-old Chrome. 
 
 But, I want to have my options and I have at minimum 3 browsers installed on every system (Brave, Edge, Chrome, Firefox). 
-
 ## [Accept All Cookies](https://chromewebstore.google.com/detail/accept-all-cookies/ofpnikijgfhlmmjlpkfaifhhdonchhoi)
 Cookies are literally a pain for me. This extension takes care of all cookies and just ignores. I literally don't care about whether cookies are stored or what not. I just want to browse the web without me confirming that I allow my information to be stored. 
 
@@ -39,20 +38,29 @@ I think we all need some application to store content to be consumed later. It c
 
 More importantly, I like to keep my life as simple and minimalistic as possible. 
 
-## [Dastyar Personal Assistant in your newtab](https://chromewebstore.google.com/detail/dastyar-personal-assistan/ebilacdhmebcihmbjgibcbeaihbecapj?hl=fa)
-This extension is for Iranian people like me who like to see their local calendar and date and time everytime they open a new tab in browser. 
+## [Pie Adblock: Block ads, get paid.](https://pie.org/)
+
+## [Raindrop.io — All-in-one bookmark manager](https://raindrop.io/)
+
+## [GitHub - lasuillard-s/raindrop-sync-chrome: Chrome browser extension for syncing bookmarks with Raindrop.](https://github.com/lasuillard-s/raindrop-sync-chrome)
+This one syncs raindrop bookmarks into chrome. Very handy indeed. 
+## [Obsidian Web Clipper](https://obsidian.md/clipper)
+
+# Not Using Anymore
+## [Instapaper](https://www.instapaper.com/)
+Deprecated because of Raindrop. 
+
+## [Tabrr New Tab - Dashboard with Sync](https://tabrr.com/)
+Deprecated because of raindrop. 
 
 ## [Proxy SwitchyOmega](https://chromewebstore.google.com/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif)
 I also use this extension to selectively pass some website into a tunnel. 
 
+I use clash verge and custom rules. So this is not needed. 
 ## [magnolia1234 / Bypass Paywalls Chrome Clean · GitLab](https://gitlab.com/magnolia1234/bypass-paywalls-chrome-clean/)
 This one passes some paywall sites. 
 
 ## [RSS Reader Extension (by Inoreader)](https://chromewebstore.google.com/detail/rss-reader-extension-by-i/kfimphpokifbjgmjflanmfeppcjimgah)
 
-
-## [Pie Adblock: Block ads, get paid.](https://pie.org/)
-
-## [Tabrr New Tab - Dashboard with Sync](https://tabrr.com/)
-
-## [Instapaper](https://www.instapaper.com/)
+## [Dastyar Personal Assistant in your newtab](https://chromewebstore.google.com/detail/dastyar-personal-assistan/ebilacdhmebcihmbjgibcbeaihbecapj?hl=fa)
+This extension is for Iranian people like me who like to see their local calendar and date and time everytime they open a new tab in browser. Deprecated since it wanted my money for basic features and didn't customize enough. 
