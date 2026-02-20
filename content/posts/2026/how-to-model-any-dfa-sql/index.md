@@ -335,3 +335,5 @@ WHERE  previous_subscriber_state IS NULL
 |102|99902|2024-03-20|**subscriber_unsubscribed**|Paused count hits 0.|
 
 The beauty of this solution is not that we can apply this to **any** DFA. Any DFA has a set of states and a state transition diagram. We can simply do a lag operation to maintain memory. Then we map state transition diagram via simple case statements. Then we sum over them. This is how we know at each time, what entities are in what state. 
+
+> Note: This Code was written using BigQuery Syntax. But I'm pretty sure It would easily apply to other databases as well. 
