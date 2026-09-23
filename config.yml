@@ -91,6 +91,8 @@ params:
       url: "mailto:pourmand1376@gmail.com"
     - name: github
       url: "https://github.com/pourmand1376"
+    - name: substack
+      url: https://substack.com/@pourmand1376
     - name: linkedin
       url: "https://www.linkedin.com/in/amir-pourmand"
     - name: stackoverflow
